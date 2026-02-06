@@ -119,9 +119,7 @@ public:
 
         // Setup an orthographic projection
         QMatrix4x4 modelView;
-        if (!monitorOffset.isNull()) {
-            modelView.translate(monitorOffset.x() * devicePixelRatio, -monitorOffset.y() * devicePixelRatio);
-        }
+
         width = viewportSize.width() * devicePixelRatio;
         height = viewportSize.height() * devicePixelRatio;
         modelView.scale(2.0f / width, 2.0f / height);
@@ -132,6 +130,9 @@ public:
                 modelView.translate(-offset.x() * devicePixelRatio,
                                     offset.y() * devicePixelRatio);
             modelView.scale(zoom, zoom);
+        }
+        if (!monitorOffset.isNull()) {
+            modelView.translate(monitorOffset.x() * devicePixelRatio, -monitorOffset.y() * devicePixelRatio);
         }
         for (int i = 0; i < 4; i++) {
             vertexData[4 * i] *= modelView(0, 0);
