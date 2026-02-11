@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-06 00:44+0000\n"
-"PO-Revision-Date: 2026-01-30 17:15+0100\n"
+"PO-Revision-Date: 2026-02-07 10:18+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -7498,10 +7498,9 @@ msgstr "DA"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, fuzzy, kde-format
-#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, kde-format
 msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
-msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
 #, kde-format
@@ -7669,12 +7668,13 @@ msgid "Normalize"
 msgstr "Normalizza"
 
 #: data/effects/dynamic_loudness.xml:5
-#, fuzzy, kde-format
-#| msgid "Dynamically correct audio loudness as recommended by EBU R128"
+#, kde-format
 msgid ""
 "Designed for live streams. Dynamically correct audio loudness as recommended "
 "by EBU R128"
-msgstr "Corregge dinamicamente il volume audio come raccomandato da EBU R128"
+msgstr ""
+"Progettato per i flussi dal vivo. Correzione dinamica del volume audio "
+"secondo le raccomandazioni EBU R128."
 
 #: data/effects/dynamic_loudness.xml:8 data/effects/loudness.xml:8
 #, kde-format
@@ -16856,10 +16856,9 @@ msgid "Ultra-High Definition (4K)"
 msgstr ""
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "Sfumatura alfa"
+msgstr "Video con alfa"
 
 #: data/profiles.xml:58
 #, kde-format
@@ -16867,10 +16866,9 @@ msgid "Old-TV definition (DVD...)"
 msgstr ""
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "Accelerazione hardware AMF"
+msgstr "Elaborazione hardware (sperimentale)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -29565,11 +29563,9 @@ msgstr ""
 "impostazioni dei driver."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr ""
-"Fai clic per ripristinare i livelli d'ingrandimento delle forme d'onda audio"
+msgstr "Fai clic per aggiornare le forme d'onda audio"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
@@ -32370,22 +32366,19 @@ msgstr ""
 "cambiarlo con «mlt_profile»."
 
 #: src/renderpresets/renderpresetrepository.cpp:99
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "Custom render preset category"
 msgid "Custom"
 msgstr "Personalizzato"
 
 #: src/renderpresets/renderpresetrepository.cpp:100
-#, fuzzy, kde-format
-#| msgid "10 Bit"
+#, kde-format
 msgctxt "10 Bit color depth category"
 msgid "10 Bit"
 msgstr "10 Bit"
 
 #: src/renderpresets/renderpresetrepository.cpp:101
-#, fuzzy, kde-format
-#| msgid "Lossless/HQ"
+#, kde-format
 msgctxt "Lossless rendering category"
 msgid "Lossless/HQ"
 msgstr "Senza perdita/HQ"
@@ -32397,8 +32390,7 @@ msgid "Custom"
 msgstr "Personalizzato"
 
 #: src/renderpresets/renderpresetrepository.cpp:229
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "Custom render preset category name"
 msgid "Custom"
 msgstr "Personalizzato"
@@ -35745,7 +35737,7 @@ msgstr "Regione rettangolare"
 #: src/ui/configcapture_ui.ui:99
 #, kde-format
 msgid "Follow mouse"
-msgstr "Segui lo spostamento del mouse"
+msgstr "Segui il mouse"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_grab_hide_frame)
 #: src/ui/configcapture_ui.ui:106
@@ -35853,10 +35845,9 @@ msgstr "Griglia del controllo"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/ui/configcolors_ui.ui:125
-#, fuzzy, kde-format
-#| msgid "Monitor audio"
+#, kde-format
 msgid "Monitor safe zone:"
-msgstr "Controlla l'audio"
+msgstr "Zona sicura del controllo:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/ui/configenv_ui.ui:33
@@ -36569,7 +36560,7 @@ msgstr "Dispositivo audio:"
 #: src/ui/configsdl_ui.ui:135
 #, kde-format
 msgid "External display (Blackmagic card):"
-msgstr "Display esterno (scheda BlackMagic):"
+msgstr "Schermo esterno (scheda BlackMagic):"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/ui/configsdl_ui.ui:149
@@ -37200,7 +37191,7 @@ msgstr "k"
 #: src/ui/editrenderpreset_ui.ui:592
 #, kde-format
 msgid "Frame Rate:"
-msgstr "Velocità fotogrammi:"
+msgstr "Frequenza dei fotogrammi:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/ui/editrenderpreset_ui.ui:599
