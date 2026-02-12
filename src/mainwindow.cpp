@@ -5614,10 +5614,12 @@ void MainWindow::disconnectTimeline(TimelineWidget *timeline, bool onClose)
     if (!onClose) {
         // Ensure the active timeline has an transparent black background for embedded compositing
         timeline->model()->makeTransparentBg(true);
-        // Update audio thumb if necessary
-        const QUuid uuid = timeline->getUuid();
-        const QString binId = pCore->projectItemModel()->getSequenceId(uuid);
-        getBin()->rebuildAudioThumb(binId);
+        if (!pCore->currentDoc()->loading) {
+            // Update audio thumb if necessary
+            const QUuid uuid = timeline->getUuid();
+            const QString binId = pCore->projectItemModel()->getSequenceId(uuid);
+            getBin()->rebuildAudioThumb(binId);
+        }
     }
     disconnect(timeline->controller(), &TimelineController::durationChanged, pCore->projectManager(), &ProjectManager::adjustProjectDuration);
     disconnect(m_projectMonitor, &Monitor::multitrackView, timeline->controller(), &TimelineController::slotMultitrackView);
