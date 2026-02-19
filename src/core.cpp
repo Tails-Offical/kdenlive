@@ -2316,3 +2316,21 @@ void Core::closeApp()
     QApplication::closeAllWindows();
     QApplication::exit(EXIT_SUCCESS);
 }
+
+const QStringList Core::getLumasForProfile()
+{
+    if (getCurrentFrameSize().width() < 1000 && getCurrentFrameSize().height() < 1000) {
+        if (MainWindow::m_lumaFiles.contains(QLatin1String("NTSC")) && getCurrentFrameSize() == QSize(720, 480)) {
+            return MainWindow::m_lumaFiles.value(QStringLiteral("NTSC"));
+        }
+        return MainWindow::m_lumaFiles.value(QStringLiteral("PAL"));
+    }
+    // At some point, we should create square and vertical lumas...
+    if (MainWindow::m_lumaFiles.contains(QLatin1String("square")) && getCurrentFrameSize().height() == getCurrentFrameSize().width()) {
+        return MainWindow::m_lumaFiles.value(QStringLiteral("square"));
+    }
+    if (MainWindow::m_lumaFiles.contains(QLatin1String("9_16")) && getCurrentDar() < 1.) {
+        return MainWindow::m_lumaFiles.value(QStringLiteral("9_16"));
+    }
+    return MainWindow::m_lumaFiles.value(QStringLiteral("16_9"));
+}
