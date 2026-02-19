@@ -39,10 +39,12 @@ SPDX-License-Identifier: GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 #include <kddockwidgets/Config.h>
 
 #include <QAction>
+#include <QAudioDevice>
 #include <QButtonGroup>
 #include <QDir>
 #include <QGuiApplication>
 #include <QInputDialog>
+#include <QMediaDevices>
 #include <QRegularExpression>
 #include <QScreen>
 #include <QSize>
@@ -171,7 +173,10 @@ bool KdenliveSettingsDialog::initAudioRecDevice()
     if (!selectedDevice.isEmpty() && selectedIndex > -1) {
         m_configCapture.defaultaudiocapture->setCurrentIndex(selectedIndex);
     }
-    connect(m_configCapture.defaultaudiocapture, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, [&]() { updateButtons(); });
+    connect(m_configCapture.defaultaudiocapture, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, [&]() {
+        updateRecordProperties();
+        updateButtons();
+    });
     return true;
 }
 
@@ -417,27 +422,142 @@ void KdenliveSettingsDialog::initCapturePage()
 
     slotUpdateGrabRegionStatus();
 
-    // audio capture channels
-    m_configCapture.audiocapturechannels->clear();
-    m_configCapture.audiocapturechannels->addItem(i18n("Mono (1 channel)"), 1);
-    m_configCapture.audiocapturechannels->addItem(i18n("Stereo (2 channels)"), 2);
+    // Init audio capture device
+    initAudioRecDevice();
 
-    int channelsIndex = m_configCapture.audiocapturechannels->findData(KdenliveSettings::audiocapturechannels());
-    m_configCapture.audiocapturechannels->setCurrentIndex(qMax(channelsIndex, 0));
+    // Fill channels and sample rate with supported values
+    updateRecordProperties();
+
+    // Ensure changes to channels / sample rate trigger a changed signal
     connect(m_configCapture.audiocapturechannels, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, [&]() { updateButtons(); });
-    // audio capture sample rate
-    m_configCapture.audiocapturesamplerate->clear();
-    m_configCapture.audiocapturesamplerate->addItem(i18n("44100 Hz"), 44100);
-    m_configCapture.audiocapturesamplerate->addItem(i18n("48000 Hz"), 48000);
-
-    int sampleRateIndex = m_configCapture.audiocapturesamplerate->findData(KdenliveSettings::audiocapturesamplerate());
-    m_configCapture.audiocapturesamplerate->setCurrentIndex(qMax(sampleRateIndex, 0));
     connect(m_configCapture.audiocapturesamplerate, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, [&]() { updateButtons(); });
+    connect(m_configCapture.audiocapturesampleformat, static_cast<void (QComboBox::*)(int)>(&QComboBox::currentIndexChanged), this, [&]() { updateButtons(); });
 
     m_configCapture.labelNoAudioDevices->setVisible(false);
 
-    initAudioRecDevice();
+    connect(m_configCapture.audiocapturedefaults, &QPushButton::clicked, this, &KdenliveSettingsDialog::useRecordDefault);
+
     getBlackMagicDeviceList(m_configCapture.kcfg_decklink_capturedevice);
+}
+
+void KdenliveSettingsDialog::useRecordDefault()
+{
+    const QString device = m_configCapture.defaultaudiocapture->currentText();
+    QAudioDevice deviceInfo = QMediaDevices::defaultAudioInput();
+    const auto deviceInfos = QMediaDevices::audioInputs();
+    for (const QAudioDevice &devInfo : deviceInfos) {
+        qDebug() << "Found device : " << devInfo.description();
+        if (devInfo.description() == device) {
+            deviceInfo = devInfo;
+            qDebug() << "Monitoring using device : " << devInfo.description();
+            break;
+        }
+    }
+    if (deviceInfo.isNull()) {
+        return;
+    }
+    QAudioFormat defaultFormat = deviceInfo.preferredFormat();
+    int ix = m_configCapture.audiocapturechannels->findData(defaultFormat.channelCount());
+    if (ix > -1) {
+        m_configCapture.audiocapturechannels->setCurrentIndex(ix);
+    }
+    ix = m_configCapture.audiocapturesamplerate->findData(defaultFormat.sampleRate());
+    if (ix > -1) {
+        m_configCapture.audiocapturesamplerate->setCurrentIndex(ix);
+    }
+    ix = m_configCapture.audiocapturesampleformat->findData(defaultFormat.sampleFormat());
+    if (ix > -1) {
+        m_configCapture.audiocapturesampleformat->setCurrentIndex(ix);
+    }
+}
+
+void KdenliveSettingsDialog::updateRecordProperties()
+{
+    // Find active device
+    const QString device = m_configCapture.defaultaudiocapture->currentText();
+    QAudioDevice deviceInfo = QMediaDevices::defaultAudioInput();
+    const auto deviceInfos = QMediaDevices::audioInputs();
+    for (const QAudioDevice &devInfo : deviceInfos) {
+        qDebug() << "Found device : " << devInfo.description();
+        if (devInfo.description() == device) {
+            deviceInfo = devInfo;
+            qDebug() << "Monitoring using device : " << devInfo.description();
+            break;
+        }
+    }
+    if (deviceInfo.isNull()) {
+        m_configCapture.audiocapturechannels->setEnabled(false);
+        m_configCapture.audiocapturesamplerate->setEnabled(false);
+        m_configCapture.audiocapturesampleformat->setEnabled(false);
+        m_configCapture.audiocapturedefaults->setEnabled(false);
+    }
+    m_configCapture.audiocapturechannels->setEnabled(true);
+    m_configCapture.audiocapturesamplerate->setEnabled(true);
+    m_configCapture.audiocapturesampleformat->setEnabled(true);
+    m_configCapture.audiocapturedefaults->setEnabled(true);
+
+    // Supported audio channels
+    m_configCapture.audiocapturechannels->clear();
+    int min = deviceInfo.minimumChannelCount();
+    // Max channel count seems to frequently go up to 32, which is probably incorrect, limit to 6
+    int max = qMin(6, deviceInfo.maximumChannelCount());
+    if (min < 2) {
+        m_configCapture.audiocapturechannels->addItem(i18n("Mono (1 channel)"), 1);
+    }
+    if (max > 1) {
+        m_configCapture.audiocapturechannels->addItem(i18n("Stereo (2 channels)"), 2);
+    }
+    for (int i = 3; i <= max; i++) {
+        m_configCapture.audiocapturechannels->addItem(i18n("%1 channels", i), i);
+    }
+    int channelsIndex = m_configCapture.audiocapturechannels->findData(KdenliveSettings::audiocapturechannels());
+    m_configCapture.audiocapturechannels->setCurrentIndex(qMax(channelsIndex, 0));
+
+    // Default audio capture sample rate
+    m_configCapture.audiocapturesamplerate->clear();
+    min = deviceInfo.minimumSampleRate();
+    max = deviceInfo.maximumSampleRate();
+
+    if (max < 44100) {
+        m_configCapture.audiocapturesamplerate->addItem(i18n("%1 Hz", max), max);
+    } else {
+        if (min <= 44100) {
+            m_configCapture.audiocapturesamplerate->addItem(i18n("44100 Hz"), 44100);
+        }
+        if (max >= 48000) {
+            m_configCapture.audiocapturesamplerate->addItem(i18n("48000 Hz"), 48000);
+        }
+        if (max >= 96000) {
+            m_configCapture.audiocapturesamplerate->addItem(i18n("96000 Hz"), 96000);
+        }
+    }
+
+    int sampleRateIndex = m_configCapture.audiocapturesamplerate->findData(KdenliveSettings::audiocapturesamplerate());
+    m_configCapture.audiocapturesamplerate->setCurrentIndex(qMax(sampleRateIndex, 0));
+
+    // Default audio capture sample formats
+    m_configCapture.audiocapturesampleformat->clear();
+    QList<QAudioFormat::SampleFormat> sampleFormats = deviceInfo.supportedSampleFormats();
+    for (auto &fm : sampleFormats) {
+        switch (fm) {
+        case QAudioFormat::UInt8:
+            m_configCapture.audiocapturesampleformat->addItem(i18n("Unsigned 8 bit"), QAudioFormat::UInt8);
+            break;
+        case QAudioFormat::Int16:
+            m_configCapture.audiocapturesampleformat->addItem(i18n("Signed 16 bit"), QAudioFormat::Int16);
+            break;
+        case QAudioFormat::Int32:
+            m_configCapture.audiocapturesampleformat->addItem(i18n("Signed 32 bit"), QAudioFormat::Int32);
+            break;
+        case QAudioFormat::Float:
+            m_configCapture.audiocapturesampleformat->addItem(i18n("Float"), QAudioFormat::Float);
+            break;
+        default:
+            break;
+        }
+    }
+    int sampleFormatIndex = m_configCapture.audiocapturesampleformat->findData(KdenliveSettings::audiocapturesampleformat());
+    m_configCapture.audiocapturesampleformat->setCurrentIndex(qMax(sampleFormatIndex, 0));
 }
 
 void KdenliveSettingsDialog::initJogShuttlePage()
@@ -1130,12 +1250,16 @@ void KdenliveSettingsDialog::updateSettings()
     // Check audio capture changes
     if (KdenliveSettings::audiocapturechannels() != m_configCapture.audiocapturechannels->currentData().toInt() ||
         KdenliveSettings::audiocapturevolume() != m_configCapture.kcfg_audiocapturevolume->value() ||
-        KdenliveSettings::audiocapturesamplerate() != m_configCapture.audiocapturesamplerate->currentData().toInt()) {
+        KdenliveSettings::audiocapturesamplerate() != m_configCapture.audiocapturesamplerate->currentData().toInt() ||
+        KdenliveSettings::audiocapturesampleformat() != m_configCapture.audiocapturesampleformat->currentData().toInt()) {
         KdenliveSettings::setAudiocapturechannels(m_configCapture.audiocapturechannels->currentData().toInt());
         KdenliveSettings::setAudiocapturevolume(m_configCapture.kcfg_audiocapturevolume->value());
         KdenliveSettings::setAudiocapturesamplerate(m_configCapture.audiocapturesamplerate->currentData().toInt());
-        pCore->resetAudioMonitoring();
-    } else if (audioRecDeviceChanged) {
+        KdenliveSettings::setAudiocapturesampleformat(m_configCapture.audiocapturesampleformat->currentData().toInt());
+        audioRecDeviceChanged = true;
+    }
+
+    if (audioRecDeviceChanged) {
         pCore->resetAudioMonitoring();
     }
 
@@ -1555,6 +1679,9 @@ bool KdenliveSettingsDialog::hasChanged()
         return true;
     }
     if (KdenliveSettings::audiocapturesamplerate() != m_configCapture.audiocapturesamplerate->currentData().toInt()) {
+        return true;
+    }
+    if (KdenliveSettings::audiocapturesampleformat() != m_configCapture.audiocapturesampleformat->currentData().toInt()) {
         return true;
     }
     return KConfigDialog::hasChanged();

@@ -86,6 +86,8 @@ private Q_SLOTS:
     void loadExternalProxyProfiles();
     /** @brief Enable/disable Breeze drag window from empty areas behavior */
     void slotUpdateBreezeDrag(bool dragOnTitleBar);
+    /** @brief Use current device's default recording profile */
+    void useRecordDefault();
 
 private:
     KPageWidgetItem *m_pageMisc;
@@ -148,6 +150,7 @@ private:
     void initJogShuttlePage();
     void initSdlPage(bool gpuAllowed);
     void initTranscodePage();
+    void updateRecordProperties();
 
 Q_SIGNALS:
     void customChanged();
