@@ -1068,7 +1068,7 @@ void RenderWidget::slotPrepareExport2(bool delayedRendering)
     }
     m_view.tabWidget->setCurrentIndex(Tabs::JobsTab);
     // check render status
-    checkRenderStatus();
+    checkRenderStatus(-1);
 }
 
 RenderJobItem *RenderWidget::createRenderJob(const RenderRequest::RenderJob &job)
@@ -1119,7 +1119,7 @@ RenderJobItem *RenderWidget::createRenderJob(const RenderRequest::RenderJob &job
     return renderItem;
 }
 
-void RenderWidget::checkRenderStatus()
+void RenderWidget::checkRenderStatus(int lastStatus)
 {
     // check if we have a job waiting to render
     if (m_blockProcessing) {
@@ -1169,7 +1169,7 @@ void RenderWidget::checkRenderStatus()
             m_renderStatus = NotRendering;
             Q_EMIT renderStatusChanged();
         }
-        if (m_view.shutdown->isChecked()) {
+        if (m_view.shutdown->isChecked() && lastStatus != -3) {
             Q_EMIT shutdown();
         }
     }
@@ -1824,7 +1824,7 @@ void RenderWidget::setRenderStatus(const QString &dest, int status, const QStrin
     }
     m_view.clean_up->setEnabled(true);
     slotCheckJob();
-    checkRenderStatus();
+    checkRenderStatus(status);
 }
 
 RenderJobItem *RenderWidget::startingJob()
@@ -1848,7 +1848,7 @@ void RenderWidget::slotAbortCurrentJob()
         } else {
             delete current;
             slotCheckJob();
-            checkRenderStatus();
+            checkRenderStatus(-3);
         }
     }
 }
@@ -2021,7 +2021,7 @@ void RenderWidget::slotStartScript()
                                QString::number(QCoreApplication::applicationPid())};
         renderItem->setData(1, ParametersRole, argsJob);
         renderItem->setData(1, PlaylistFileRole, path);
-        checkRenderStatus();
+        checkRenderStatus(-1);
         m_view.tabWidget->setCurrentIndex(Tabs::JobsTab);
     }
 }
