@@ -1554,6 +1554,11 @@ void Core::invalidateItem(ObjectId itemId)
             tl->controller()->invalidateItem(itemId.itemId);
         }
         break;
+    case KdenliveObjectType::TimelineMix:
+        if (tl) {
+            tl->controller()->invalidateMix(itemId);
+        }
+        break;
     case KdenliveObjectType::TimelineTrack:
         if (tl) {
             tl->controller()->invalidateTrack(itemId.itemId);
@@ -1568,7 +1573,7 @@ void Core::invalidateItem(ObjectId itemId)
         }
         break;
     default:
-        // compositions should not have effects
+        qWarning() << "::::: INVALIDATING ITEM NOT HANDLED: " << int(itemId.type);
         break;
     }
 }
