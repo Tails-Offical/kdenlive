@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-19 00:44+0000\n"
+"POT-Creation-Date: 2026-02-20 00:44+0000\n"
 "PO-Revision-Date: 2026-01-28 22:58+0000\n"
 "Last-Translator: Charlotte <altronic25@protonmail.com>\n"
 "Language-Team: Irish\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4;\n"
+"3 : 4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -4186,23 +4186,12 @@ msgstr ""
 "        Cinneann sé neart an doiléire ingearaigh. Is é 10 an réamhshocrú."
 
 #: data/effects/avfilter/avfilter_gradfun.xml:4
-#, fuzzy, kde-format
-#| msgid "gradfun"
+#, kde-format
 msgid "Gradfun"
-msgstr "gradfun"
+msgstr ""
 
 #: data/effects/avfilter/avfilter_gradfun.xml:8
-#, fuzzy, kde-format
-#| msgid ""
-#| "<b>-= Deprecated =-</b><br>\n"
-#| "    Debands video quickly using gradients.<br>\n"
-#| "    Fix the banding artifacts that are sometimes introduced into nearly "
-#| "flat regions by truncation to 8-bit color depth.<br>\n"
-#| "    Interpolate the gradients that should go where the bands are, and "
-#| "dither them.<br>\n"
-#| "    <b>It is designed for playback only. Do not use it prior to lossy "
-#| "compression, because compression tends to lose the dither and bring back "
-#| "the bands</b>."
+#, kde-format
 msgid ""
 "Debands video quickly using gradients.<br>\n"
 "    Fix the banding artifacts that are sometimes introduced into nearly flat "
@@ -4213,15 +4202,6 @@ msgid ""
 "compression, because compression tends to lose the dither and bring back the "
 "bands</i></b>."
 msgstr ""
-"<b>-= Imithe i léig =-</b><br>\n"
-"    Díbhannaíonn sé físeán go tapa ag baint úsáide as grádáin.<br>\n"
-"    Deisigh na hairtifítí bandála a thugtar isteach uaireanta i réigiúin "
-"beagnach cothroma trí ghiorrú go doimhneacht datha 8-giotán.<br>\n"
-"    Idirshuigh na grádáin ba chóir a bheith san áit a bhfuil na bandaí, agus "
-"déan díothúchán orthu.<br>\n"
-"    <b>Tá sé deartha le haghaidh athsheinm amháin. Ná húsáid é roimh "
-"chomhbhrú caillteanach, mar is gnách go gcaillfidh comhbhrú an díothúchán "
-"agus go dtabharfaidh sé na bandaí ar ais.</b>."
 
 #: data/effects/avfilter/avfilter_gradfun.xml:13
 #, kde-format
@@ -7571,10 +7551,9 @@ msgstr "Ó"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, fuzzy, kde-format
-#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, kde-format
 msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
-msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgstr ""
 
 #: data/effects/copychannelstostereo.xml:12
 #, kde-format
@@ -12069,10 +12048,9 @@ msgid "This filter creates a false image from a visible + infrared source"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:8
-#, fuzzy, kde-format
-#| msgid "Color Matrix"
+#, kde-format
 msgid "Color Map"
-msgstr "Maitrís Dathanna"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:9
 #, kde-format
@@ -12085,16 +12063,14 @@ msgid "The number of color levels to use in the false image"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:16
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "VIS Scale"
-msgstr "Scála"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:20
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "VIS Offset"
-msgstr "Fritháireamh X"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:22
 #, no-c-format, kde-format
@@ -12104,22 +12080,19 @@ msgid ""
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:25
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "NIR Scale"
-msgstr "Scála"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:26
-#, fuzzy, kde-format
-#| msgid "The background color to be applied to the entire frame."
+#, kde-format
 msgid "A scaling factor to be applied to the near-infrared component"
-msgstr "An dath cúlra le cur i bhfeidhm ar an bhfráma ar fad."
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:29
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "NIR Offset"
-msgstr "Fritháireamh X"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:31
 #, no-c-format, kde-format
@@ -12129,10 +12102,9 @@ msgid ""
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:34
-#, fuzzy, kde-format
-#| msgid "4 Channels"
+#, kde-format
 msgid "Visible Channel"
-msgstr "4 Chainéal"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:35
 #, kde-format
@@ -12141,16 +12113,14 @@ msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:36
 #: data/effects/frei0r/frei0r_ndvi.xml:41
-#, fuzzy, kde-format
-#| msgid "Red,Green,Blue,Luma"
+#, kde-format
 msgid "Red,Green,Blue"
-msgstr "Dearg, Glas, Gorm, Luma"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:39
-#, fuzzy, kde-format
-#| msgid "Channel"
+#, kde-format
 msgid "NIR Channel"
-msgstr "Cainéal"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:40
 #, kde-format
@@ -12158,10 +12128,9 @@ msgid "The channel to use for the near-infrared component"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:44
-#, fuzzy, kde-format
-#| msgid "Calculating..."
+#, kde-format
 msgid "Index Calculation"
-msgstr "Ag ríomh..."
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:45
 #, kde-format
@@ -12174,10 +12143,9 @@ msgid "NDVI,VI"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:49
-#, fuzzy, kde-format
-#| msgid "Legend unit"
+#, kde-format
 msgid "Legend"
-msgstr "Aonad finscéalta"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:50
 #, kde-format
@@ -12185,10 +12153,9 @@ msgid "Control legend display"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:51
-#, fuzzy, kde-format
-#| msgid "Bottom"
+#, kde-format
 msgid "Off,Bottom"
-msgstr "Bun"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_nervous.xml:4
 #, kde-format
@@ -12933,34 +12900,29 @@ msgid "Interval"
 msgstr "Eatramh"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:4
-#, fuzzy, kde-format
-#| msgid "3 point balance"
+#, kde-format
 msgid "3-Point Balance"
-msgstr "Iarmhéid 3 phointe"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:5
-#, fuzzy, kde-format
-#| msgid "Balances colors along with 3 points"
+#, kde-format
 msgid "Adjust color balance with 3 color points"
-msgstr "Cothromaíonn dathanna mar aon le 3 phointe"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:8
-#, fuzzy, kde-format
-#| msgid "Black color"
+#, kde-format
 msgid "Black Color"
-msgstr "Dath dubh"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:11
-#, fuzzy, kde-format
-#| msgid "Gray color"
+#, kde-format
 msgid "Gray Color"
-msgstr "Dath liath"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:14
-#, fuzzy, kde-format
-#| msgid "White color"
+#, kde-format
 msgid "White Color"
-msgstr "Dath bán"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:17
 #, kde-format
@@ -17076,7 +17038,7 @@ msgid "Noise Reduction and Audio Restoration"
 msgstr "Laghdú Torainn agus Athchóiriú Fuaime"
 
 #: data/kdenliveeffectscategory.rc:94
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:83 src/mainwindow.cpp:1611
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:85 src/mainwindow.cpp:1611
 #: src/scopes/colorscopes/vectorscope.cpp:144
 #, kde-format
 msgid "Tools"
@@ -17190,10 +17152,9 @@ msgid "Ultra-High Definition (4K)"
 msgstr ""
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "Cleite Alfa"
+msgstr ""
 
 #: data/profiles.xml:58
 #, kde-format
@@ -17201,10 +17162,9 @@ msgid "Old-TV definition (DVD...)"
 msgstr ""
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "Luasghéarú crua-earraí AMF"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -18652,7 +18612,7 @@ msgstr "Sábháil éifeacht"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:131
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1434
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1559
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Preset Name"
@@ -18660,7 +18620,7 @@ msgstr "Cuir isteach Ainm Réamhshocraithe"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:133
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1434
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1559
 #, kde-format
 msgid "Enter the name of this preset:"
 msgstr "Cuir isteach ainm an réamhshocraithe seo:"
@@ -19011,31 +18971,30 @@ msgstr "Iompórtáil frámaí eochair ón ngearrthaisce"
 msgid "Insert a Keyword…"
 msgstr "Cuir Eochairfhocal isteach…"
 
-#: src/assets/view/widgets/listdependencyparamwidget.cpp:162
-#: src/assets/view/widgets/listparamwidget.cpp:93
-#: src/assets/view/widgets/urllistparamwidget.cpp:192
+#: src/assets/view/widgets/listdependencyparamwidget.cpp:151
+#: src/assets/view/widgets/listparamwidget.cpp:82
+#: src/assets/view/widgets/urllistparamwidget.cpp:181
 #, kde-format
 msgid "None (Dissolve)"
 msgstr "Gan aon cheann (Tuaslag)"
 
 #: src/assets/view/widgets/pointparamwidget.cpp:51
-#, fuzzy, kde-format
-#| msgid "Position:"
+#, kde-format
 msgctxt "Position as the x,y coordinate for a point"
 msgid "Position:"
-msgstr "Seasamh:"
+msgstr ""
 
 #: src/assets/view/widgets/urllistparamwidget.cpp:61
 #, kde-format
 msgid "Create or edit a mask for this clip"
 msgstr "Cruthaigh nó cuir in eagar masc don ghearrthóg seo"
 
-#: src/assets/view/widgets/urllistparamwidget.cpp:334
+#: src/assets/view/widgets/urllistparamwidget.cpp:325
 #, kde-format
 msgid "Custom…"
 msgstr "Saincheaptha…"
 
-#: src/assets/view/widgets/urllistparamwidget.cpp:463
+#: src/assets/view/widgets/urllistparamwidget.cpp:454
 #, kde-format
 msgid "Invalid LUT file %1"
 msgstr "Comhad LUT neamhbhailí %1"
@@ -19996,7 +19955,7 @@ msgid "No valid clip to insert"
 msgstr "Níl aon ghearrthóg bhailí le cur isteach"
 
 #: src/bin/bin.cpp:4352 src/timeline2/view/timelinecontroller.cpp:1620
-#: src/timeline2/view/timelinecontroller.cpp:3552
+#: src/timeline2/view/timelinecontroller.cpp:3567
 #, kde-format
 msgid "Select a clip to apply an effect"
 msgstr "Roghnaigh gearrthóg chun éifeacht a chur i bhfeidhm"
@@ -20055,18 +20014,14 @@ msgstr ""
 "thoil"
 
 #: src/bin/bin.cpp:5080
-#, fuzzy, kde-format
-#| msgid "Enter path for your audio editing application"
+#, kde-format
 msgid "Enter path for your video editing application"
-msgstr "Cuir isteach cosán do d'fheidhmchlár eagarthóireachta fuaime"
+msgstr ""
 
 #: src/bin/bin.cpp:5092
-#, fuzzy, kde-format
-#| msgid "Please set a default application to open audio files"
+#, kde-format
 msgid "Please set a default application to open video files"
 msgstr ""
-"Socraigh feidhmchlár réamhshocraithe chun comhaid fuaime a oscailt le do "
-"thoil"
 
 #: src/bin/bin.cpp:5102 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
@@ -20916,12 +20871,12 @@ msgstr "Cuir Clib leis"
 msgid "New tag"
 msgstr "Clib nua"
 
-#: src/capture/mediacapture.cpp:114
+#: src/capture/mediacapture.cpp:117
 #, kde-format
 msgid "Recording format adjusted to %1 channels, %2Hz."
 msgstr "Formáid taifeadta coigeartaithe go %1 cainéal, %2Hz."
 
-#: src/capture/mediacapture.cpp:221
+#: src/capture/mediacapture.cpp:222
 #, kde-format
 msgid ""
 "Monitoring audio. Press <b>Space</b> to start/pause recording, <b>Esc</b> to "
@@ -20930,7 +20885,7 @@ msgstr ""
 "Ag faire ar fhuaim. Brúigh <b>Spás</b> chun an taifeadadh a thosú/sosú, "
 "<b>Esc</b> chun deireadh a chur leis."
 
-#: src/capture/mediacapture.cpp:366 src/monitor/recmanager.cpp:194
+#: src/capture/mediacapture.cpp:369 src/monitor/recmanager.cpp:194
 #, kde-format
 msgctxt "capture as a prefix to the filename of a recorded audio/video file"
 msgid "capture"
@@ -21237,12 +21192,12 @@ msgstr ""
 msgid "Loading clips"
 msgstr "Gearrthóga á lódáil"
 
-#: src/core.cpp:1906
+#: src/core.cpp:1911
 #, kde-format
 msgid "Marker %1"
 msgstr "Marcóir %1"
 
-#: src/core.cpp:2260
+#: src/core.cpp:2265
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the "
@@ -21253,12 +21208,12 @@ msgstr ""
 "ag an url seo a leanas:\n"
 "%1"
 
-#: src/core.cpp:2261 src/core.cpp:2272
+#: src/core.cpp:2266 src/core.cpp:2277
 #, kde-format
 msgid "Open Browser"
 msgstr "Oscail Brabhsálaí"
 
-#: src/core.cpp:2271
+#: src/core.cpp:2276
 #, kde-format
 msgid ""
 "This will open a browser to display a link:\n"
@@ -21510,7 +21465,7 @@ msgid "Manage Encoding Profiles"
 msgstr "Bainistigh Próifílí Ionchódaithe"
 
 #: src/dialogs/encodingprofilesdialog.cpp:55
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:283
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:289
 #: src/project/dialogs/archivewidget.cpp:100
 #, kde-format
 msgid "Proxy Clips"
@@ -21599,7 +21554,7 @@ msgstr "Uathoibríoch (%1)"
 
 #: src/dialogs/encodingprofilesdialog.cpp:265
 #: src/dialogs/encodingprofilesdialog.cpp:354
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:690
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:811
 #: src/project/dialogs/projectsettings.cpp:909
 #: src/transitions/view/transitionstackview.cpp:40
 #, kde-format
@@ -21689,8 +21644,8 @@ msgstr "Easpórtáil Sonraí Marcóirí"
 #: src/render/renderrequest.cpp:324
 #: src/renderpresets/renderpresetrepository.cpp:424
 #: src/renderpresets/renderpresetrepository.cpp:480
-#: src/timeline2/view/timelinecontroller.cpp:5289
-#: src/timeline2/view/timelinecontroller.cpp:5294
+#: src/timeline2/view/timelinecontroller.cpp:5304
+#: src/timeline2/view/timelinecontroller.cpp:5309
 #: src/titler/titlewidget.cpp:2347
 #, kde-format
 msgid "Cannot write to file %1"
@@ -21921,7 +21876,7 @@ msgstr "Barr ar Dheis"
 
 #. i18n: ectx: property (text), widget (QRadioButton, default_folder)
 #: src/dialogs/managesubtitles.cpp:528 src/dialogs/renderwidget.cpp:385
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:715
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:836
 #: src/dialogs/subtitlestyleedit.cpp:104 src/ui/configproject_ui.ui:48
 #, kde-format
 msgid "Default"
@@ -22574,46 +22529,46 @@ msgstr "Cuir leis an Tionscadal Reatha"
 msgid "Open Containing Folder"
 msgstr "Oscail an Fillteán ina bhfuil"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:79 src/mainwindow.cpp:261
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:81 src/mainwindow.cpp:261
 #, kde-format
 msgid "Timeline"
 msgstr "Amlíne"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:89
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:91
 #, kde-format
 msgid "Colors and Markers"
 msgstr "Dathanna agus Marcóirí"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:96
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:98
 #, kde-format
 msgid "Plugins"
 msgstr "Breiseáin"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:100
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:102
 #, kde-format
 msgid "Playback"
 msgstr "Athsheinm"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:108
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:110
 #, kde-format
 msgid "Capture"
 msgstr "Gabh"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:181
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:187
 #: src/effects/effectlist/model/effecttreemodel.cpp:64
 #, kde-format
 msgid "Misc"
 msgstr "Éagsúil"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:214
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:782
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:220
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:903
 #: src/doc/documentvalidator.cpp:2511
 #: src/transitions/transitionsrepository.cpp:197
 #, kde-format
 msgid "auto"
 msgstr "uathoibríoch"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:224
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:230
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -22626,76 +22581,114 @@ msgstr ""
 "héifeachtaí seo díchumasaithe agus ní chuirfear i bhfeidhm iad ach amháin má "
 "athraíonn tú paraiméadar."
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:251
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:257
 #, kde-format
 msgid "Select the Default Profile (preset)"
 msgstr "Roghnaigh an Phróifíl Réamhshocraithe (réamhshocraithe)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:272
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:278
 #, kde-format
 msgid "Project Defaults"
 msgstr "Réamhshocruithe an Tionscadail"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:317
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:342
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:323
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:348
 #, kde-format
 msgid "Use default folder: %1"
 msgstr "Úsáid fillteán réamhshocraithe: %1"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:319
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:345
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1072
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1073
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1088
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1089
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:325
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:351
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1193
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1194
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1209
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1210
 #, kde-format
 msgid "Always use project folder: %1"
 msgstr "Úsáid fillteán tionscadail i gcónaí: %1"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:321
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:347
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1084
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1085
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:327
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:353
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1205
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1206
 #, kde-format
 msgid "Always use active project folder"
 msgstr "Úsáid fillteán tionscadail gníomhach i gcónaí"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:379
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:385
 #, kde-format
 msgid "Environment"
 msgstr "Timpeallacht"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:411
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:417
 #, kde-format
 msgid "Capture is not yet available on Mac OS X."
 msgstr "Níl Gabháil ar fáil ar Mac OS X go fóill."
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:421
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:505
 #, kde-format
 msgid "Mono (1 channel)"
 msgstr "Monó (1 chainéal)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:422
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:508
 #, kde-format
 msgid "Stereo (2 channels)"
 msgstr "Steirió (2 chainéal)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:429
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:511
+#, fuzzy, kde-format
+#| msgid "%1 channels "
+msgid "%1 channels"
+msgstr "%1 cainéal "
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:522
+#, fuzzy, kde-format
+#| msgid "311 Hz"
+msgid "%1 Hz"
+msgstr "311 Hz"
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:525
 #, kde-format
 msgid "44100 Hz"
 msgstr "44100 Hz"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:430
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:528
 #, kde-format
 msgid "48000 Hz"
 msgstr "48000 Hz"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:483
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:531
+#, fuzzy, kde-format
+#| msgid "5000 Hz"
+msgid "96000 Hz"
+msgstr "5000 Hz"
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:544
+#, kde-format
+msgid "Unsigned 8 bit"
+msgstr ""
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:547
+#, kde-format
+msgid "Signed 16 bit"
+msgstr ""
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:550
+#, kde-format
+msgid "Signed 32 bit"
+msgstr ""
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:553
+#, kde-format
+msgid "Float"
+msgstr ""
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:604
 #, kde-format
 msgid "JogShuttle"
 msgstr "JogShuttle"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:485
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:606
 #, kde-format
 msgid ""
 "For device configuration see <a href=\"https://docs.kdenlive.org/"
@@ -22709,7 +22702,7 @@ msgstr ""
 "a>."
 
 #. i18n: ectx: Menu (transcoders)
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:507
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:628
 #: src/dialogs/timeremap.cpp:1580 src/kdenliveui.rc:81
 #: src/mltcontroller/clippropertiescontroller.cpp:810
 #: src/project/transcodeseek.cpp:52 src/project/transcodeseek.cpp:65
@@ -22717,93 +22710,92 @@ msgstr ""
 msgid "Transcode"
 msgstr "Traschódaigh"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:541
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
 #, kde-format
 msgid "GPU processing needs MLT compiled with Movit and Rtaudio modules"
 msgstr ""
 "Teastaíonn MLT tiomsaithe le modúil Movit agus Rtaudio ó phróiseáil GPU"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:697
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:818
 #, kde-format
 msgid "ALSA"
 msgstr "ALSA"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:698
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:819
 #, kde-format
 msgid "PulseAudio"
 msgstr "PulseAudio"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:699
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:820
 #, kde-format
 msgid "PipeWire"
 msgstr "PipeWire"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:700
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:821
 #, kde-format
 msgid "OSS"
 msgstr "OSS"
 
 #. i18n("OSS with DMA access"), "dma");
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:702
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:823
 #, kde-format
 msgid "Esound Daemon"
 msgstr "Deamhan Esound"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:703
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:824
 #, kde-format
 msgid "ARTS Daemon"
 msgstr "Daemon na nEalaíon"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:750
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:871
 #, kde-format
 msgid "SDL"
 msgstr "SDL"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:762
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:883
 #, kde-format
 msgid "RtAudio"
 msgstr "RtAudio"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:786 src/mainwindow.cpp:301
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:907 src/mainwindow.cpp:301
 #, kde-format
 msgid "Monitor %1"
 msgstr "Monatóir %1"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:870
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:991
 #, kde-format
 msgid "Enter path to the audio editing application"
 msgstr "Cuir isteach cosán chuig an bhfeidhmchlár eagarthóireachta fuaime"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:878
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:999
 #, kde-format
 msgid "Enter path to the image editing application"
 msgstr "Cuir isteach cosán chuig an bhfeidhmchlár eagarthóireachta íomhá"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:886
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1007
 #: src/glaxnimatelauncher.cpp:30
 #, kde-format
 msgid "Enter path to the Glaxnimate application"
 msgstr "Cuir isteach cosán chuig an bhfeidhmchlár Glaxnimate"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:894
-#, fuzzy, kde-format
-#| msgid "Enter path to the audio editing application"
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1015
+#, kde-format
 msgid "Enter path to the video editing application"
-msgstr "Cuir isteach cosán chuig an bhfeidhmchlár eagarthóireachta fuaime"
+msgstr ""
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:976
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1023
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1097
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1144
 #: src/project/dialogs/projectsettings.cpp:541
 #, kde-format
 msgid "Please select a video profile"
 msgstr "Roghnaigh próifíl físe le do thoil"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1309
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1434
 #, kde-format
 msgid "Kdenlive must be restarted to change this setting"
 msgstr "Ní mór Kdenlive a atosú chun an socrú seo a athrú"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1437
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1562
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:670
 #, kde-format
 msgid "A profile with that name already exists"
@@ -25739,13 +25731,13 @@ msgid "Exporting…"
 msgstr "Ag easpórtáil…"
 
 #: src/effects/effectstack/view/effectstackview.cpp:688
-#: src/timeline2/view/timelinecontroller.cpp:3403
+#: src/timeline2/view/timelinecontroller.cpp:3418
 #, kde-format
 msgid "Enable Effect Stack"
 msgstr "Cumasaigh Cruach Éifeachtaí"
 
 #: src/effects/effectstack/view/effectstackview.cpp:688
-#: src/timeline2/view/timelinecontroller.cpp:3403
+#: src/timeline2/view/timelinecontroller.cpp:3418
 #, kde-format
 msgid "Disable Effect Stack"
 msgstr "Díchumasaigh Cruach Éifeachtaí"
@@ -26634,20 +26626,16 @@ msgid "This layout contains horizontal and vertical profiles"
 msgstr "Tá próifílí cothrománacha agus ingearacha sa leagan amach seo"
 
 #: src/layouts/layoutmanagerdialog.cpp:335
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "This layout contains an horizontal profile"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "This layout contains a horizontal profile"
-msgstr "Tá próifíl chothrománach sa leagan amach seo"
+msgstr ""
 
 #: src/layouts/layoutmanagerdialog.cpp:339
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid "This layout contains an vertical profile"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "This layout contains a vertical profile"
-msgstr "Tá próifíl ingearach sa leagan amach seo"
+msgstr ""
 
 #: src/lib/audio/audioCorrelation.cpp:37 src/lib/audio/audioEnvelope.cpp:136
 #, kde-format
@@ -28389,7 +28377,7 @@ msgstr "Cuir Rian isteach…"
 msgid "Fit all Tracks in View"
 msgstr "Oiriúnaigh gach Rian i Radharc"
 
-#: src/mainwindow.cpp:2090 src/timeline2/view/timelinecontroller.cpp:5016
+#: src/mainwindow.cpp:2090 src/timeline2/view/timelinecontroller.cpp:5031
 #, kde-format
 msgid "Sequence effects"
 msgstr "Éifeachtaí seicheamh"
@@ -28435,10 +28423,9 @@ msgid "Delete Timeline Marker"
 msgstr "Scrios Marcóir Amlíne"
 
 #: src/mainwindow.cpp:2141
-#, fuzzy, kde-format
-#| msgid "Delete Timeline Marker"
+#, kde-format
 msgid "Delete All Timeline Markers"
-msgstr "Scrios Marcóir Amlíne"
+msgstr ""
 
 #: src/mainwindow.cpp:2143
 #, kde-format
@@ -28738,14 +28725,14 @@ msgid "Marker category does not exist"
 msgstr "Níl catagóir marcóra ann"
 
 #: src/mainwindow.cpp:3353 src/timeline2/model/timelinefunctions.cpp:798
-#: src/timeline2/view/timelinecontroller.cpp:3264
+#: src/timeline2/view/timelinecontroller.cpp:3279
 #, kde-format
 msgid "Overwrite zone"
 msgstr "Crios forscríobh"
 
 #: src/mainwindow.cpp:3355 src/mainwindow.cpp:3374
 #: src/timeline2/model/timelinefunctions.cpp:800
-#: src/timeline2/view/timelinecontroller.cpp:3266
+#: src/timeline2/view/timelinecontroller.cpp:3281
 #, kde-format
 msgid "Could not insert zone"
 msgstr "Níorbh fhéidir crios a chur isteach"
@@ -28756,7 +28743,7 @@ msgid "No clip selected in project bin"
 msgstr "Níl aon ghearrthóg roghnaithe sa bhosca tionscadail"
 
 #: src/mainwindow.cpp:3372 src/timeline2/model/timelinefunctions.cpp:798
-#: src/timeline2/view/timelinecontroller.cpp:3264
+#: src/timeline2/view/timelinecontroller.cpp:3279
 #, kde-format
 msgid "Insert zone"
 msgstr "Cuir crios isteach"
@@ -28983,7 +28970,7 @@ msgstr ""
 msgid "Hide menu bar"
 msgstr "Folaigh an barra roghchláir"
 
-#: src/mainwindow.cpp:5125 src/timeline2/view/timelinecontroller.cpp:5247
+#: src/mainwindow.cpp:5125 src/timeline2/view/timelinecontroller.cpp:5262
 #, kde-format
 msgid "No subtitles in current project"
 msgstr "Gan aon fhotheidil sa tionscadal reatha"
@@ -29761,7 +29748,7 @@ msgid "Cannot get producer for Clip Monitor"
 msgstr "Ní féidir léiritheoir a fháil do Clip Monitor"
 
 #: src/monitor/monitor.cpp:3342 src/monitor/monitor.cpp:3373
-#: src/timeline2/view/timelinecontroller.cpp:5800
+#: src/timeline2/view/timelinecontroller.cpp:5815
 #, kde-format
 msgid "No valid zone defined. Please set in/out points first."
 msgstr ""
@@ -29774,13 +29761,13 @@ msgid "Create Range Marker from Zone"
 msgstr "Cruthaigh Marcóir Raoin ón gCrios"
 
 #: src/monitor/monitor.cpp:3358 src/monitor/monitor.cpp:3379
-#: src/timeline2/view/timelinecontroller.cpp:5815
+#: src/timeline2/view/timelinecontroller.cpp:5830
 #, kde-format
 msgid "Range marker created from zone"
 msgstr "Marcóir raoin cruthaithe ón gcrios"
 
 #: src/monitor/monitor.cpp:3360 src/monitor/monitor.cpp:3381
-#: src/timeline2/view/timelinecontroller.cpp:5818
+#: src/timeline2/view/timelinecontroller.cpp:5833
 #, kde-format
 msgid "Failed to create range marker from zone"
 msgstr "Theip ar mharcóir raoin a chruthú ón gcrios"
@@ -29927,7 +29914,7 @@ msgid "Go to Zone End"
 msgstr "Téigh go Deireadh na Crios"
 
 #: src/monitor/monitorproxy.cpp:745
-#: src/timeline2/view/timelinecontroller.cpp:5807
+#: src/timeline2/view/timelinecontroller.cpp:5822
 #, kde-format
 msgid "Zone marker"
 msgstr "Marcóir crios"
@@ -30013,10 +30000,9 @@ msgstr ""
 "do thoil socraigh é."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr "Cliceáil chun Zúmáil Tonnfhoirm Fuaime a athshocrú"
+msgstr ""
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
@@ -31485,7 +31471,7 @@ msgstr ""
 
 #: src/project/dialogs/projectsettings.cpp:789
 #: src/project/dialogs/projectsettings.cpp:804
-#: src/project/dialogs/slideshowclip.cpp:335
+#: src/project/dialogs/slideshowclip.cpp:321
 #, kde-format
 msgid "1 image found"
 msgid_plural "%1 images found"
@@ -31554,7 +31540,7 @@ msgid "Pan and zoom"
 msgstr "Peanáil agus súmáil"
 
 #. i18n: ectx: property (text), widget (QLabel, label_info)
-#: src/project/dialogs/slideshowclip.cpp:333 src/ui/slideshowclip_ui.ui:299
+#: src/project/dialogs/slideshowclip.cpp:319 src/ui/slideshowclip_ui.ui:299
 #, kde-format
 msgid "No image found"
 msgstr "Níor aimsíodh aon íomhá"
@@ -32823,25 +32809,22 @@ msgstr ""
 "athrú go 'mlt_profile'."
 
 #: src/renderpresets/renderpresetrepository.cpp:99
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "Custom render preset category"
 msgid "Custom"
-msgstr "Saincheaptha"
+msgstr ""
 
 #: src/renderpresets/renderpresetrepository.cpp:100
-#, fuzzy, kde-format
-#| msgid "10 Bit"
+#, kde-format
 msgctxt "10 Bit color depth category"
 msgid "10 Bit"
-msgstr "10 Bit"
+msgstr ""
 
 #: src/renderpresets/renderpresetrepository.cpp:101
-#, fuzzy, kde-format
-#| msgid "Lossless/HQ"
+#, kde-format
 msgctxt "Lossless rendering category"
 msgid "Lossless/HQ"
-msgstr "Gan Chaillteanas/Ceanncheathrú"
+msgstr ""
 
 #: src/renderpresets/renderpresetrepository.cpp:148
 #, kde-format
@@ -32850,11 +32833,10 @@ msgid "Custom"
 msgstr "Saincheaptha"
 
 #: src/renderpresets/renderpresetrepository.cpp:229
-#, fuzzy, kde-format
-#| msgid "Custom"
+#, kde-format
 msgctxt "Custom render preset category name"
 msgid "Custom"
-msgstr "Saincheaptha"
+msgstr ""
 
 #: src/renderpresets/renderpresetrepository.cpp:280
 #, kde-format
@@ -33509,15 +33491,15 @@ msgid "Remove space"
 msgstr "Bain spás"
 
 #: src/timeline2/model/timelinefunctions.cpp:763
-#: src/timeline2/view/timelinecontroller.cpp:3071
+#: src/timeline2/view/timelinecontroller.cpp:3086
 #, kde-format
 msgid "Lift zone"
 msgstr "Crios ardaitheora"
 
 #: src/timeline2/model/timelinefunctions.cpp:763
 #: src/timeline2/view/timelinecontroller.cpp:746
-#: src/timeline2/view/timelinecontroller.cpp:3071
-#: src/timeline2/view/timelinecontroller.cpp:3144
+#: src/timeline2/view/timelinecontroller.cpp:3086
+#: src/timeline2/view/timelinecontroller.cpp:3159
 #, kde-format
 msgid "Extract zone"
 msgstr "Crios eastósctha"
@@ -33537,22 +33519,22 @@ msgstr "Gníomhachtaigh rian trí chliceáil ar lipéad an riain"
 #: src/timeline2/view/timelinecontroller.cpp:1427
 #: src/timeline2/view/timelinecontroller.cpp:1483
 #: src/timeline2/view/timelinecontroller.cpp:2444
-#: src/timeline2/view/timelinecontroller.cpp:3089
-#: src/timeline2/view/timelinecontroller.cpp:3153
-#: src/timeline2/view/timelinecontroller.cpp:3366
-#: src/timeline2/view/timelinecontroller.cpp:3411
-#: src/timeline2/view/timelinecontroller.cpp:3452
-#: src/timeline2/view/timelinecontroller.cpp:3459
-#: src/timeline2/view/timelinecontroller.cpp:3487
-#: src/timeline2/view/timelinecontroller.cpp:3561
-#: src/timeline2/view/timelinecontroller.cpp:3578
-#: src/timeline2/view/timelinecontroller.cpp:3840
+#: src/timeline2/view/timelinecontroller.cpp:3104
+#: src/timeline2/view/timelinecontroller.cpp:3168
+#: src/timeline2/view/timelinecontroller.cpp:3381
+#: src/timeline2/view/timelinecontroller.cpp:3426
+#: src/timeline2/view/timelinecontroller.cpp:3467
+#: src/timeline2/view/timelinecontroller.cpp:3474
+#: src/timeline2/view/timelinecontroller.cpp:3502
+#: src/timeline2/view/timelinecontroller.cpp:3576
+#: src/timeline2/view/timelinecontroller.cpp:3593
 #: src/timeline2/view/timelinecontroller.cpp:3855
-#: src/timeline2/view/timelinecontroller.cpp:3880
+#: src/timeline2/view/timelinecontroller.cpp:3870
 #: src/timeline2/view/timelinecontroller.cpp:3895
-#: src/timeline2/view/timelinecontroller.cpp:3954
-#: src/timeline2/view/timelinecontroller.cpp:4007
-#: src/timeline2/view/timelinecontroller.cpp:4030
+#: src/timeline2/view/timelinecontroller.cpp:3910
+#: src/timeline2/view/timelinecontroller.cpp:3969
+#: src/timeline2/view/timelinecontroller.cpp:4022
+#: src/timeline2/view/timelinecontroller.cpp:4045
 #, kde-format
 msgid "No clip selected"
 msgstr "Níl aon ghearrthóg roghnaithe"
@@ -33565,7 +33547,7 @@ msgstr "Ní féidir an grúpa roghnaithe a bhogadh"
 #: src/timeline2/model/timelinefunctions.cpp:1132
 #: src/timeline2/model/timelinefunctions.cpp:1136
 #: src/timeline2/model/timelinefunctions.cpp:1143
-#: src/timeline2/view/timelinecontroller.cpp:4171
+#: src/timeline2/view/timelinecontroller.cpp:4186
 #, kde-format
 msgid "Enable clip"
 msgstr "Cumasaigh gearrthóg"
@@ -33573,16 +33555,15 @@ msgstr "Cumasaigh gearrthóg"
 #: src/timeline2/model/timelinefunctions.cpp:1132
 #: src/timeline2/model/timelinefunctions.cpp:1136
 #: src/timeline2/model/timelinefunctions.cpp:1143
-#: src/timeline2/view/timelinecontroller.cpp:4171
+#: src/timeline2/view/timelinecontroller.cpp:4186
 #, kde-format
 msgid "Disable clip"
 msgstr "Díchumasaigh gearrthóg"
 
 #: src/timeline2/model/timelinefunctions.cpp:1159
-#, fuzzy, kde-format
-#| msgid "Cannot create clip"
+#, kde-format
 msgid "Cannot change clip state"
-msgstr "Ní féidir gearrthóg a chruthú"
+msgstr ""
 
 #: src/timeline2/model/timelinefunctions.cpp:1188
 #, kde-format
@@ -33700,10 +33681,9 @@ msgid "Could not add bin clip"
 msgstr "Níorbh fhéidir gearrthóg bruscair a chur leis"
 
 #: src/timeline2/model/timelinefunctions.cpp:2574
-#, fuzzy, kde-format
-#| msgid "All clips were not successfully copied"
+#, kde-format
 msgid "Not all clips were copied successfully"
-msgstr "Níor cóipeáladh na gearrthóga go léir go rathúil"
+msgstr ""
 
 #: src/timeline2/model/timelinefunctions.cpp:2630
 #: src/timeline2/model/timelinefunctions.cpp:2811
@@ -33828,7 +33808,7 @@ msgstr "Bog gearrthóg"
 #: src/timeline2/model/timelinemodel.cpp:1982
 #: src/timeline2/model/timelinemodel.cpp:2005
 #: src/timeline2/model/timelinemodel.cpp:2034
-#: src/timeline2/view/timelinecontroller.cpp:3437
+#: src/timeline2/view/timelinecontroller.cpp:3452
 #, kde-format
 msgid "No available track for insert operation"
 msgstr "Níl aon rian ar fáil le haghaidh oibríochta iontrála"
@@ -33877,7 +33857,7 @@ msgstr "Scrios Comhdhéanamh"
 
 #: src/timeline2/model/timelinemodel.cpp:2476
 #: src/timeline2/model/timelinemodel.cpp:2777
-#: src/timeline2/view/timelinecontroller.cpp:4408
+#: src/timeline2/view/timelinecontroller.cpp:4423
 #, kde-format
 msgid "Move group"
 msgstr "Bog grúpa"
@@ -34491,7 +34471,7 @@ msgid "Cannot perform operation while dragging in timeline"
 msgstr "Ní féidir oibríocht a dhéanamh agus tarraingt san amlíne"
 
 #: src/timeline2/view/timelinecontroller.cpp:934
-#: src/timeline2/view/timelinecontroller.cpp:5177
+#: src/timeline2/view/timelinecontroller.cpp:5192
 #, kde-format
 msgid "Could not insert track"
 msgstr "Níorbh fhéidir an rian a chur isteach"
@@ -34562,122 +34542,122 @@ msgstr "Ní féidir na spásanna go léir a bhaint"
 msgid "Cannot remove all clips"
 msgstr "Ní féidir na gearrthóga go léir a bhaint"
 
-#: src/timeline2/view/timelinecontroller.cpp:2928
-#: src/timeline2/view/timelinecontroller.cpp:2933
-#: src/timeline2/view/timelinecontroller.cpp:2955
+#: src/timeline2/view/timelinecontroller.cpp:2943
+#: src/timeline2/view/timelinecontroller.cpp:2948
+#: src/timeline2/view/timelinecontroller.cpp:2970
 #, kde-format
 msgid "No item to edit"
 msgstr "Níl aon mhír le heagarthóireacht"
 
-#: src/timeline2/view/timelinecontroller.cpp:3045
-#: src/timeline2/view/timelinecontroller.cpp:5437
+#: src/timeline2/view/timelinecontroller.cpp:3060
+#: src/timeline2/view/timelinecontroller.cpp:5452
 #, kde-format
 msgid "Please activate a track for this operation by clicking on its label"
 msgstr ""
 "Gníomhaigh rian don oibríocht seo trí chliceáil ar a lipéad le do thoil"
 
-#: src/timeline2/view/timelinecontroller.cpp:3309
+#: src/timeline2/view/timelinecontroller.cpp:3324
 #, kde-format
 msgid "Please select a target track by clicking on a track's target zone"
 msgstr "Roghnaigh rian sprice trí chliceáil ar chrios sprice an riain"
 
-#: src/timeline2/view/timelinecontroller.cpp:3378
+#: src/timeline2/view/timelinecontroller.cpp:3393
 #, kde-format
 msgid "Select a favorite composition"
 msgstr "Roghnaigh comhdhéanamh is fearr leat"
 
-#: src/timeline2/view/timelinecontroller.cpp:3443
+#: src/timeline2/view/timelinecontroller.cpp:3458
 #, kde-format
 msgid "No clip found to perform AV split operation"
 msgstr "Níor aimsíodh aon ghearrthóg chun oibríocht scoilte AV a dhéanamh"
 
-#: src/timeline2/view/timelinecontroller.cpp:3471
-#: src/timeline2/view/timelinecontroller.cpp:3539
-#: src/timeline2/view/timelinecontroller.cpp:3595
+#: src/timeline2/view/timelinecontroller.cpp:3486
+#: src/timeline2/view/timelinecontroller.cpp:3554
+#: src/timeline2/view/timelinecontroller.cpp:3610
 #, kde-format
 msgid "Cannot move clip to frame %1."
 msgstr "Ní féidir an gearrthóg a bhogadh go fráma %1."
 
-#: src/timeline2/view/timelinecontroller.cpp:3492
+#: src/timeline2/view/timelinecontroller.cpp:3507
 #, kde-format
 msgid "Set audio reference before attempting to align"
 msgstr "Socraigh tagairt fuaime sula ndéantar iarracht ailíniú"
 
-#: src/timeline2/view/timelinecontroller.cpp:3566
-#: src/timeline2/view/timelinecontroller.cpp:3588
+#: src/timeline2/view/timelinecontroller.cpp:3581
+#: src/timeline2/view/timelinecontroller.cpp:3603
 #, kde-format
 msgid "No timecode for clip"
 msgstr "Gan aon chód ama don ghearrthóg"
 
-#: src/timeline2/view/timelinecontroller.cpp:3583
+#: src/timeline2/view/timelinecontroller.cpp:3598
 #, kde-format
 msgid "Set timecode reference before attempting to align"
 msgstr ""
 "Socraigh tagairt an chóid ama sula ndéantar iarracht ailíniú a dhéanamh"
 
-#: src/timeline2/view/timelinecontroller.cpp:3704
+#: src/timeline2/view/timelinecontroller.cpp:3719
 #, kde-format
 msgid "All streams already assigned, deselect another audio target first"
 msgstr "Gach sruth sannta cheana féin, díroghnaigh sprioc fuaime eile ar dtús"
 
-#: src/timeline2/view/timelinecontroller.cpp:3863
+#: src/timeline2/view/timelinecontroller.cpp:3878
 #, kde-format
 msgid "Delete effects"
 msgstr "Scrios éifeachtaí"
 
-#: src/timeline2/view/timelinecontroller.cpp:3901
-#: src/timeline2/view/timelinecontroller.cpp:3907
-#: src/timeline2/view/timelinecontroller.cpp:3913
+#: src/timeline2/view/timelinecontroller.cpp:3916
+#: src/timeline2/view/timelinecontroller.cpp:3922
+#: src/timeline2/view/timelinecontroller.cpp:3928
 #, kde-format
 msgid "No information in clipboard"
 msgstr "Gan aon fhaisnéis sa ghearrthaisce"
 
-#: src/timeline2/view/timelinecontroller.cpp:3938
+#: src/timeline2/view/timelinecontroller.cpp:3953
 #, kde-format
 msgid "Paste effects"
 msgstr "Éifeachtaí greamaigh"
 
-#: src/timeline2/view/timelinecontroller.cpp:3940
+#: src/timeline2/view/timelinecontroller.cpp:3955
 #, kde-format
 msgid "Cannot paste effect on selected clip"
 msgstr "Ní féidir an éifeacht a ghreamú ar an ngearrthóg roghnaithe"
 
-#: src/timeline2/view/timelinecontroller.cpp:3992
+#: src/timeline2/view/timelinecontroller.cpp:4007
 #, kde-format
 msgid "Open sequence"
 msgstr "Seicheamh oscailte"
 
-#: src/timeline2/view/timelinecontroller.cpp:4014
+#: src/timeline2/view/timelinecontroller.cpp:4029
 #, kde-format
 msgid "Item is not a title clip"
 msgstr "Ní gearrthóg teidil í an mhír"
 
-#: src/timeline2/view/timelinecontroller.cpp:4112
+#: src/timeline2/view/timelinecontroller.cpp:4127
 #, kde-format
 msgid "%1 items selected (%2) |"
 msgstr "%1 mhír roghnaithe (%2) |"
 
-#: src/timeline2/view/timelinecontroller.cpp:4166
+#: src/timeline2/view/timelinecontroller.cpp:4181
 #, kde-format
 msgid "Restore video"
 msgstr "Athchóirigh físeán"
 
-#: src/timeline2/view/timelinecontroller.cpp:4166
+#: src/timeline2/view/timelinecontroller.cpp:4181
 #, kde-format
 msgid "Restore audio"
 msgstr "Athchóirigh fuaim"
 
-#: src/timeline2/view/timelinecontroller.cpp:4387
+#: src/timeline2/view/timelinecontroller.cpp:4402
 #, kde-format
 msgid "Move item"
 msgstr "Bog mír"
 
-#: src/timeline2/view/timelinecontroller.cpp:4868
+#: src/timeline2/view/timelinecontroller.cpp:4883
 #, kde-format
 msgid "Impossible to capture on a locked track"
 msgstr "Dodhéanta a ghabháil ar rian faoi ghlas"
 
-#: src/timeline2/view/timelinecontroller.cpp:4879
+#: src/timeline2/view/timelinecontroller.cpp:4894
 #, kde-format
 msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
@@ -34686,22 +34666,22 @@ msgstr ""
 "Ní féidir gabháil anseo: d'fhéadfadh an gabháil na gearrthóga a shárú. Bain "
 "gearrthóga i ndiaidh an tsuímh reatha nó roghnaigh rian difriúil"
 
-#: src/timeline2/view/timelinecontroller.cpp:4970
+#: src/timeline2/view/timelinecontroller.cpp:4985
 #, kde-format
 msgid "Record audio"
 msgstr "Taifeadadh fuaime"
 
-#: src/timeline2/view/timelinecontroller.cpp:5117
+#: src/timeline2/view/timelinecontroller.cpp:5132
 #, kde-format
 msgid "Expand clip"
 msgstr "Leathnaigh an gearrthóg"
 
-#: src/timeline2/view/timelinecontroller.cpp:5120
+#: src/timeline2/view/timelinecontroller.cpp:5135
 #, kde-format
 msgid "Could not expand clip"
 msgstr "Níorbh fhéidir an gearrthóg a leathnú"
 
-#: src/timeline2/view/timelinecontroller.cpp:5175
+#: src/timeline2/view/timelinecontroller.cpp:5190
 #, kde-format
 msgid "Insert Track"
 msgid_plural "Insert Tracks"
@@ -34711,18 +34691,18 @@ msgstr[2] "Cuir Rianta Isteach"
 msgstr[3] "Cuir Rianta Isteach"
 msgstr[4] "Cuir Rianta Isteach"
 
-#: src/timeline2/view/timelinecontroller.cpp:5254
+#: src/timeline2/view/timelinecontroller.cpp:5269
 #, kde-format
 msgid "Export subtitle file"
 msgstr "Easpórtáil comhad fotheideal"
 
-#: src/timeline2/view/timelinecontroller.cpp:5255
+#: src/timeline2/view/timelinecontroller.cpp:5270
 #, kde-format
 msgid "Sub Station Alpha v4.00+ File (*.ass);;SubRip Subtitle File (*.srt)"
 msgstr ""
 "Comhad Sub Station Alpha v4.00+ (*.ass);;Comhad Fotheideal SubRip (*.srt)"
 
-#: src/timeline2/view/timelinecontroller.cpp:5269
+#: src/timeline2/view/timelinecontroller.cpp:5284
 #, kde-format
 msgid ""
 "The current subtitle track contains multiple layers, meaning that if "
@@ -34735,12 +34715,12 @@ msgstr ""
 "ach an fotheideal ón tsraith is ísle. D’fhéadfadh sé seo go gcaillfí roinnt "
 "fotheidil sa chomhad easpórtáilte. Ar mhaith leat leanúint ar aghaidh?"
 
-#: src/timeline2/view/timelinecontroller.cpp:5274
+#: src/timeline2/view/timelinecontroller.cpp:5289
 #, kde-format
 msgid "Warning"
 msgstr "Rabhadh"
 
-#: src/timeline2/view/timelinecontroller.cpp:5312
+#: src/timeline2/view/timelinecontroller.cpp:5327
 #, kde-format
 msgid ""
 "The avfilter.subtitles filter is required, but was not found. The subtitles "
@@ -34749,40 +34729,40 @@ msgstr ""
 "Tá an scagaire avfilter.subtitles ag teastáil, ach níor aimsíodh é. Is dócha "
 "nach n-oibreoidh an ghné fotheidil mar a bhíothas ag súil leis."
 
-#: src/timeline2/view/timelinecontroller.cpp:5329
+#: src/timeline2/view/timelinecontroller.cpp:5344
 #, kde-format
 msgid "Show subtitle track"
 msgstr "Taispeáin rian fotheideal"
 
-#: src/timeline2/view/timelinecontroller.cpp:5329
+#: src/timeline2/view/timelinecontroller.cpp:5344
 #, kde-format
 msgid "Hide subtitle track"
 msgstr "Folaigh rian fotheideal"
 
-#: src/timeline2/view/timelinecontroller.cpp:5352
+#: src/timeline2/view/timelinecontroller.cpp:5367
 #, kde-format
 msgid "Unlock subtitle track"
 msgstr "Díghlasáil rian fotheideal"
 
-#: src/timeline2/view/timelinecontroller.cpp:5352
+#: src/timeline2/view/timelinecontroller.cpp:5367
 #, kde-format
 msgid "Lock subtitle track"
 msgstr "Glasáil rian fotheideal"
 
-#: src/timeline2/view/timelinecontroller.cpp:5514
-#: src/timeline2/view/timelinecontroller.cpp:5523
+#: src/timeline2/view/timelinecontroller.cpp:5529
+#: src/timeline2/view/timelinecontroller.cpp:5538
 #, kde-format
 msgctxt "@item:inlistbox name for subtitle track"
 msgid "Subtitles"
 msgstr "Fotheidil"
 
-#: src/timeline2/view/timelinecontroller.cpp:5525
+#: src/timeline2/view/timelinecontroller.cpp:5540
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Manage Subtitles"
 msgstr "Bainistigh Fotheidil"
 
-#: src/timeline2/view/timelinecontroller.cpp:5756
+#: src/timeline2/view/timelinecontroller.cpp:5771
 #, kde-format
 msgid "No range guide found at position"
 msgstr "Níor aimsíodh treoir raoin ag an suíomh"
@@ -36271,6 +36251,19 @@ msgstr "Cinntigh go bhfuil breiseáin fuaime suiteáilte ar do chóras"
 msgid "Disable countdown before recording"
 msgstr "Díchumasaigh comhaireamh síos roimh thaifeadadh"
 
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/ui/configcapture_ui.ui:434
+#, fuzzy, kde-format
+#| msgid "Sample rate:"
+msgid "Sample format:"
+msgstr "Ráta samplach:"
+
+#. i18n: ectx: property (text), widget (QPushButton, audiocapturedefaults)
+#: src/ui/configcapture_ui.ui:441
+#, kde-format
+msgid "Use Device Default Settings"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_audio_thumbs)
 #: src/ui/configcolors_ui.ui:21
 #, kde-format
@@ -36535,17 +36528,15 @@ msgstr "Eagarthóireacht beochana:"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_defaultvideoapp)
 #: src/ui/configenv_ui.ui:454
-#, fuzzy, kde-format
-#| msgid "Path to Glaxnimate executable"
+#, kde-format
 msgid "Path to video editor executable"
-msgstr "Cosán chuig an inrite Glaxnimate"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: src/ui/configenv_ui.ui:470
-#, fuzzy, kde-format
-#| msgid "Audio editing:"
+#, kde-format
 msgid "Video editing:"
-msgstr "Eagarthóireacht fuaime:"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: src/ui/configenv_ui.ui:491
@@ -40219,2183 +40210,3 @@ msgstr "%1n"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1u"
-
-#~ msgid "Timeline Markers Locked"
-#~ msgstr "Marcóirí Amlíne faoi Ghlas"
-
-#, fuzzy
-#~| msgid "Kdenlive project (*.kdenlive)"
-#~ msgid "Kdenlive video project document"
-#~ msgstr "Tionscadal Kdenlive (*.kdenlive)"
-
-#, fuzzy
-#~| msgid "Kdenlive project (*.kdenlive)"
-#~ msgid "Dokument video projektu Kdenlive"
-#~ msgstr "Tionscadal Kdenlive (*.kdenlive)"
-
-#, fuzzy
-#~| msgid "Kdenlive project (*.kdenlive)"
-#~ msgid "Kdenlive videoprojekta dokumento"
-#~ msgstr "Tionscadal Kdenlive (*.kdenlive)"
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "Welcome to Kdenlive"
-#~ msgid "Proyecto de video de Kdenlive"
-#~ msgstr "Fáilte go Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive project (*.kdenlive)"
-#~ msgid "Kdenlive video projekto dokumentas"
-#~ msgstr "Tionscadal Kdenlive (*.kdenlive)"
-
-#, fuzzy
-#~| msgid "Kdenlive project (*.kdenlive)"
-#~ msgid "Dokument video projekta Kdenlive"
-#~ msgstr "Tionscadal Kdenlive (*.kdenlive)"
-
-#, fuzzy
-#~| msgid "Kdenlive project (*.kdenlive)"
-#~ msgid "Kdenlive video proje belgesi"
-#~ msgstr "Tionscadal Kdenlive (*.kdenlive)"
-
-#, fuzzy
-#~| msgid "Kdenlive title"
-#~ msgid "Kdenlive video title"
-#~ msgstr "Teideal Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive title"
-#~ msgid "Kdenlive-Videotitel"
-#~ msgstr "Teideal Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive title"
-#~ msgid "Kdenlive videotitolo"
-#~ msgstr "Teideal Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive title"
-#~ msgid "Kdenlive videófelirat"
-#~ msgstr "Teideal Kdenlive"
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "Welcome to Kdenlive"
-#~ msgid "Judul video Kdenlive"
-#~ msgstr "Fáilte go Kdenlive"
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "Welcome to Kdenlive"
-#~ msgid "Titolo video di Kdenlive"
-#~ msgstr "Fáilte go Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive title"
-#~ msgid "Kdenlive-videotittel"
-#~ msgstr "Teideal Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive"
-#~ msgid "Kdenlive-video"
-#~ msgstr "Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive title"
-#~ msgid "Kdenlive tətbiq qatı"
-#~ msgstr "Teideal Kdenlive"
-
-#, fuzzy
-#~| msgid "Kdenlive Project"
-#~ msgid "Kdenlive programlayout"
-#~ msgstr "Tionscadal Kdenlive"
-
-#~ msgctxt "Group Name"
-#~ msgid "Custom"
-#~ msgstr "Saincheaptha"
-
-#~ msgctxt "Attribute Name"
-#~ msgid "Custom"
-#~ msgstr "Saincheaptha"
-
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "<shortcut>Click</shortcut> to play, <shortcut>Double click</shortcut> for "
-#~ "fullscreen, <shortcut>Hover right</shortcut> for toolbar, "
-#~ "<shortcut>Wheel</shortcut> or <shortcut>arrows</shortcut> to seek, "
-#~ "<shortcut>Ctrl wheel</shortcut> to zoom"
-#~ msgstr ""
-#~ "<shortcut>Cliceáil</shortcut> le himirt, <shortcut>Cliceáil faoi dhó</"
-#~ "shortcut> le haghaidh lánscáileáin, <shortcut>Bog ar dheis</shortcut> don "
-#~ "bharra uirlisí, <shortcut>Roth</shortcut> nó <shortcut>saigheada</"
-#~ "shortcut> le cuardach, <shortcut>Roth Ctrl</shortcut> le súmáil isteach"
-
-#~ msgid "Center X"
-#~ msgstr "Lár X"
-
-#~ msgid "Center Y"
-#~ msgstr "Lár Y"
-
-#, fuzzy
-#~| msgid "Frequency"
-#~ msgid "Central frequency"
-#~ msgstr "Minicíocht"
-
-#, fuzzy
-#~| msgid "Monitor"
-#~ msgid "Monitor Gamma"
-#~ msgstr "Monatóir"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[Preserve lightness]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Start at"
-#~ msgid "<![CDATA[Set graticule flags]]>"
-#~ msgstr "Tosaigh ag"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[comment]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Quality"
-#~ msgid "<![CDATA[High quality 3D denoiser]]>"
-#~ msgstr "Cáilíocht"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[Overlap]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[Gain]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[<Gain]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[Dry/Wet]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Preserve aspect ratio"
-#~ msgid "<![CDATA[BW]]>"
-#~ msgstr "Coimeád cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Components"
-#~ msgid "All components strength"
-#~ msgstr "Comhpháirteanna"
-
-#, fuzzy
-#~| msgid "Components"
-#~ msgid "Component #0 strength"
-#~ msgstr "Comhpháirteanna"
-
-#, fuzzy
-#~| msgid "Components"
-#~ msgid "Component #1 strength"
-#~ msgstr "Comhpháirteanna"
-
-#, fuzzy
-#~| msgid "Components"
-#~ msgid "Component #2 strength"
-#~ msgstr "Comhpháirteanna"
-
-#, fuzzy
-#~| msgid "Components"
-#~ msgid "Component #3 strength"
-#~ msgstr "Comhpháirteanna"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Saturation Scale Red"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Lightness Scale Red"
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Saturation Scale Yellow"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Offset"
-#~ msgid "Hue Shift Green"
-#~ msgstr "Fritháireamh"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Saturation Scale Green"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Lightness Scale Green"
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Saturation Scale Cyan"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Lightness Scale Cyan"
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Offset"
-#~ msgid "Hue Shift Blue"
-#~ msgstr "Fritháireamh"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Saturation Scale Blue"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Lightness Scale Blue"
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Lightness Scale Magenta"
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Operation 1"
-#~ msgid "Version %1"
-#~ msgstr "Oibríocht 1"
-
-#, fuzzy
-#~| msgid "Effects"
-#~ msgid "Master effects"
-#~ msgstr "Maisíochtaí"
-
-#, fuzzy
-#~| msgid "Overlay"
-#~ msgid "Change Overlay"
-#~ msgstr "Forleag"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Remove Guide"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Monitor"
-#~ msgid "Monitor overlay color:"
-#~ msgstr "Monatóir"
-
-#, fuzzy
-#~| msgid "Disable effect"
-#~| msgid_plural "Disable effects"
-#~ msgid "Raise %1"
-#~ msgstr "Díchumasaigh Maisíocht"
-
-#, fuzzy
-#~| msgid "Project"
-#~ msgid "&Project"
-#~ msgstr "Tionscadal"
-
-#, fuzzy
-#~| msgid "Align left"
-#~ msgid "&Clip"
-#~ msgstr "Ailínigh ar chlé"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgid "T&imeline"
-#~ msgstr "Amlíne"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "&Guides"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Delete %1"
-#~ msgid "Delete Effects"
-#~ msgstr "Scrios %1"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "Guides"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Color 1"
-#~ msgid "Create Color Clip"
-#~ msgstr "Dath 1"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Brightness of image."
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "External proxy clips:"
-#~ msgstr "Scrios an Phróifíl"
-
-#, fuzzy
-#~| msgid "Load markers"
-#~ msgid "Export guides"
-#~ msgstr "Luchtaigh marcóirí"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "Guide number"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "Guide comment"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Go to Guide…"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 1"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 2"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 3"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 4"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 5"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 6"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 7"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 8"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 9"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add Marker/Guide 10"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Add/Remove Guide"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Edit"
-#~ msgid "Edit Guide…"
-#~ msgstr "Eagar"
-
-#, fuzzy
-#~| msgid "Search"
-#~ msgid "Search Guide…"
-#~ msgstr "Cuardaigh"
-
-#, fuzzy
-#~| msgid "Load markers"
-#~ msgid "Export Guides…"
-#~ msgstr "Luchtaigh marcóirí"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "Guides Locked"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Show path"
-#~ msgid "Lock guides"
-#~ msgstr "Taispeáin conair"
-
-#, fuzzy
-#~| msgid "Edit"
-#~ msgid "Edit Guide Category"
-#~ msgstr "Eagar"
-
-#, fuzzy
-#~| msgid "Delete files"
-#~ msgid "Delete Guide Category"
-#~ msgstr "Scrios comhaid"
-
-#, fuzzy
-#~| msgid "Update profile"
-#~ msgid "Add new guide."
-#~ msgstr "Nuashonraigh próifíl"
-
-#, fuzzy
-#~| msgid "Delete files"
-#~ msgid "Delete guide."
-#~ msgstr "Scrios comhaid"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Remove guides"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "guide"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "&Guide zone"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Video codec"
-#~ msgid "Video device:"
-#~ msgstr "(Dí-)Comhbhrú Físe"
-
-#~ msgid "Capture format:"
-#~ msgstr "Formáid ghabhála:"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgctxt "action that will be perfomed on a missing clip"
-#~ msgid "Remove"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Cannot write to file %1"
-#~ msgid "Cannot apply effects on folders"
-#~ msgstr "Ní féidir comhad %1 a scríobh"
-
-#, fuzzy
-#~| msgid "Components"
-#~ msgid "Components:"
-#~ msgstr "Comhpháirteanna"
-
-#, fuzzy
-#~| msgid "Luma file"
-#~ msgid "Luma value."
-#~ msgstr "Comhad Luma"
-
-#, fuzzy
-#~| msgid "Scale"
-#~ msgid "Scale:"
-#~ msgstr "Scála"
-
-#, fuzzy
-#~| msgid "Threshold"
-#~ msgid "Theshold"
-#~ msgstr "Tairseach"
-
-#, fuzzy
-#~| msgid "Colour correction"
-#~ msgid "Lens correction"
-#~ msgstr "Ceartú na ndathanna"
-
-#, fuzzy
-#~| msgid "Audio codec"
-#~ msgid "Quadratic correction coeff."
-#~ msgstr "(Dí-)Comhbhrú Fuaime"
-
-#, fuzzy
-#~| msgid "Insertion"
-#~ msgid "Interpolation mode"
-#~ msgstr "Ionsá"
-
-#, fuzzy
-#~| msgid "White Balance"
-#~ msgid "White,Black,Name"
-#~ msgstr "Cothromaíocht Bhán"
-
-#~ msgid "Colorspace"
-#~ msgstr "Samhail de dhathanna:"
-
-#, fuzzy
-#~| msgid "Brightness"
-#~ msgid "Brightness (keyframable)"
-#~ msgstr "Gile"
-
-#, fuzzy
-#~| msgid "Operation"
-#~ msgid "Alpha operations"
-#~ msgstr "Oibríocht"
-
-#, fuzzy
-#~| msgid "Operation"
-#~ msgid "Alpha operation"
-#~ msgstr "Oibríocht"
-
-#~ msgid "Plasma"
-#~ msgstr "Plasma"
-
-#, fuzzy
-#~| msgid "Direction"
-#~ msgid "Light direction angle."
-#~ msgstr "Treo"
-
-#, fuzzy
-#~| msgid "Background"
-#~ msgid "Background lightness (0 to 90)."
-#~ msgstr "Cúlra"
-
-#, fuzzy
-#~| msgid "Track mouse"
-#~ msgid "Bump height (0 to 40)."
-#~ msgstr "Lorg an luch"
-
-#, fuzzy
-#~| msgid "Noise"
-#~ msgid "Denoiser"
-#~ msgstr "Torann"
-
-#, fuzzy
-#~| msgid "Background Color"
-#~ msgid "Background color"
-#~ msgstr "Dath an Chúlra"
-
-#~ msgid "Pixelize"
-#~ msgstr "Picteilíniú"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgid "Block Size X"
-#~ msgstr "Méid"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgid "Block Size Y"
-#~ msgstr "Méid"
-
-#~ msgid "Length"
-#~ msgstr "Fad"
-
-#, fuzzy
-#~| msgid "Effects"
-#~ msgid "Apply dilation effect"
-#~ msgstr "Maisíochtaí"
-
-#, fuzzy
-#~| msgid "Resize"
-#~ msgid "StepsX"
-#~ msgstr "Athraigh an mhéid"
-
-#, fuzzy
-#~| msgid "Insertion"
-#~ msgid "Interpolation factor"
-#~ msgstr "Ionsá"
-
-#, fuzzy
-#~| msgid "Scaling"
-#~ msgid "roll"
-#~ msgstr "Scálú"
-
-#, fuzzy
-#~| msgid "Track mouse"
-#~ msgid "Track Points"
-#~ msgstr "Lorg an luch"
-
-#~ msgid "radius"
-#~ msgstr "ga"
-
-#~ msgid "y"
-#~ msgstr "y"
-
-#, fuzzy
-#~| msgid "Transcode"
-#~ msgctxt "@tooltip Transform, a tool to resize"
-#~ msgid "Transform"
-#~ msgstr "Traschódaigh"
-
-#, fuzzy
-#~| msgid "Configure"
-#~ msgctxt "@label:textbox"
-#~ msgid "Checking setup…"
-#~ msgstr "Cumraigh"
-
-#, fuzzy
-#~| msgid "Import"
-#~ msgid "Import..."
-#~ msgstr "Iompórtáil"
-
-#, fuzzy
-#~| msgid "Project"
-#~ msgid "Export..."
-#~ msgstr "Tionscadal"
-
-#, fuzzy
-#~| msgid "Show log"
-#~ msgid "Show All"
-#~ msgstr "Taispeáin an logchomhad"
-
-#, fuzzy
-#~| msgid "Image File"
-#~ msgid "Timeline Guides"
-#~ msgstr "Comhad Íomhá"
-
-#, fuzzy
-#~| msgid "Edit"
-#~ msgid "MediaInfo:"
-#~ msgstr "Eagar"
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Please configure speech to text, missing dependencies: %1"
-#~ msgstr "Roghnú"
-
-#~ msgid "Show background"
-#~ msgstr "Taispeáin cúlra"
-
-#, fuzzy
-#~| msgid "Project"
-#~ msgctxt "@title:window"
-#~ msgid "Load Layout"
-#~ msgstr "Tionscadal"
-
-#~ msgid "Aspect ratio:"
-#~ msgstr "Cóimheas treoíochta:"
-
-#, fuzzy
-#~| msgid "Intensity"
-#~ msgid "Intenstiy"
-#~ msgstr "Déine"
-
-#, fuzzy
-#~| msgid "Configure"
-#~ msgid "Check config"
-#~ msgstr "Cumraigh"
-
-#, fuzzy
-#~| msgid "Archive Project"
-#~ msgid "Updating modules…"
-#~ msgstr "Cuir an Tionscadal i gCartlann"
-
-#, fuzzy
-#~| msgid "Padding"
-#~ msgid "Change Color"
-#~ msgstr "Stuáil"
-
-#, fuzzy
-#~| msgid "Profile name"
-#~ msgctxt "@title:window"
-#~ msgid "Enter Mask Name"
-#~ msgstr "Ainm na próifíle"
-
-#, fuzzy
-#~| msgid "Transcode"
-#~ msgid "Failed to analyse video."
-#~ msgstr "Traschódaigh"
-
-#, fuzzy
-#~| msgid "Extension"
-#~ msgid "Uninstall model"
-#~ msgstr "Eisínteacht"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgctxt "@label:textbox"
-#~ msgid "No python venv found"
-#~ msgstr "Amlíne"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgid "No python venv found"
-#~ msgstr "Amlíne"
-
-#, fuzzy
-#~| msgid "Delete %1"
-#~ msgid "Delete "
-#~ msgstr "Scrios %1"
-
-#, fuzzy
-#~| msgid "Border Width"
-#~ msgid "BorderStyle"
-#~ msgstr "Leithead na hImlíne"
-
-#, fuzzy
-#~| msgid "Environment"
-#~ msgid "Python environment"
-#~ msgstr "Timpeallacht"
-
-#, fuzzy
-#~| msgid "Vertical"
-#~ msgid "Veritical"
-#~ msgstr "Ingearach"
-
-#, fuzzy
-#~| msgid "Add marker"
-#~ msgid "Add text"
-#~ msgstr "Cuir marcóir leis"
-
-#, fuzzy
-#~| msgid "Horizontal Alignment"
-#~ msgid "Bottom Center"
-#~ msgstr "Ailíniú Cothrománach"
-
-#, fuzzy
-#~| msgid "Align left"
-#~ msgid "Top Center"
-#~ msgstr "Ailínigh ar chlé"
-
-#, fuzzy
-#~| msgid "untitled"
-#~ msgid "Subtitle File (*.srt)"
-#~ msgstr "gan teideal"
-
-#, fuzzy
-#~| msgid "Outline"
-#~ msgid "Custom Outline Color"
-#~ msgstr "Imlíne"
-
-#, fuzzy
-#~| msgid "Font Size"
-#~ msgid "Custom Font Size"
-#~ msgstr "Clómhéid"
-
-#, fuzzy
-#~| msgid "x"
-#~ msgid "px"
-#~ msgstr "x"
-
-#, fuzzy
-#~| msgid "Composite"
-#~ msgid "Custom Position"
-#~ msgstr "Ilchodach"
-
-#, fuzzy
-#~| msgid "Create Folder"
-#~ msgid "Custom Font Color"
-#~ msgstr "Cruthaigh Fillteán"
-
-#, fuzzy
-#~| msgid "Quality"
-#~ msgid "Custom Outline Size"
-#~ msgstr "Cáilíocht"
-
-#, fuzzy
-#~| msgid "Create Folder"
-#~ msgid "Custom Font"
-#~ msgstr "Cruthaigh Fillteán"
-
-#, fuzzy
-#~| msgid "Create Folder"
-#~ msgid "Custom Shadow"
-#~ msgstr "Cruthaigh Fillteán"
-
-#, fuzzy
-#~| msgid "Change"
-#~ msgid "Speech language"
-#~ msgstr "Athraigh"
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Start recognition"
-#~ msgstr "Roghnú"
-
-#, fuzzy
-#~| msgid "Add Profile"
-#~ msgid "adjust subtitles length"
-#~ msgstr "Cuir Próifíl Leis"
-
-#, fuzzy
-#~| msgid "Mute"
-#~ msgid "Adjust clip"
-#~ msgstr "Gan fuaim"
-
-#, fuzzy
-#~| msgid "Parameters"
-#~ msgid "Param"
-#~ msgstr "Paraiméadair"
-
-#~ msgctxt "x axis position"
-#~ msgid "X"
-#~ msgstr "X"
-
-#~ msgctxt "Frame width"
-#~ msgid "W"
-#~ msgstr "L"
-
-#~ msgctxt "Frame height"
-#~ msgid "H"
-#~ msgstr "A"
-
-#, fuzzy
-#~| msgid "Position"
-#~ msgid "More Actions"
-#~ msgstr "Ionad"
-
-#, fuzzy
-#~| msgid "Render"
-#~ msgid "Render Duration: %1. "
-#~ msgstr "Rindreáil"
-
-#~ msgctxt "The first letter of Proxy, used as abbreviation"
-#~ msgid "P"
-#~ msgstr "S"
-
-#, fuzzy
-#~| msgid "Add marker"
-#~ msgid "Add bookmark"
-#~ msgstr "Cuir marcóir leis"
-
-#, fuzzy
-#~| msgid "Archive Project"
-#~ msgid "Archived Project (*.tar.gz *.zip)"
-#~ msgstr "Cuir an Tionscadal i gCartlann"
-
-#, fuzzy
-#~| msgid "Create Folder"
-#~ msgid "Rename guide"
-#~ msgstr "Cruthaigh Fillteán"
-
-#, fuzzy
-#~| msgid "Edit"
-#~ msgid "Edit Guides Category"
-#~ msgstr "Eagar"
-
-#, fuzzy
-#~| msgid "Category"
-#~ msgid "Guides Category"
-#~ msgstr "Catagóir"
-
-#, fuzzy
-#~| msgid "Edit"
-#~ msgid "Edit guides"
-#~ msgstr "Eagar"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "Add Guides"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Guides"
-#~ msgid "Add guides"
-#~ msgstr "Treoirleabhair"
-
-#, fuzzy
-#~| msgid "Category %1"
-#~ msgid "Category %1:%2:%3"
-#~ msgstr "Catagóir %1"
-
-#, fuzzy
-#~| msgid "Color 1"
-#~ msgid "Proxies"
-#~ msgstr "Dath 1"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Modified Clips"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Preview Settings"
-#~ msgid "Fixed Sequence Clips"
-#~ msgstr "Socruithe Réamhamhairc"
-
-#, fuzzy
-#~| msgid "Save Effect"
-#~ msgid "Clip %1 will be fixed"
-#~ msgstr "Sábháil an Mhaisíocht"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Recovered item"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Scanning"
-#~ msgid "Scanning %1"
-#~ msgstr "Á Scanadh"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "Rebuild Proxies"
-#~ msgstr "Scrios an Phróifíl"
-
-#, fuzzy
-#~| msgid "Capture"
-#~ msgid "Captured files"
-#~ msgstr "Gabh"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgctxt "Filesize"
-#~ msgid "Size"
-#~ msgstr "Méid"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "Delete current file"
-#~ msgstr "Scrios an Phróifíl"
-
-#, fuzzy
-#~| msgid "M"
-#~ msgctxt "Initial for Master"
-#~ msgid "M"
-#~ msgstr "M"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgid "Insert Zone to Project Bin"
-#~ msgstr "Amlíne"
-
-#, fuzzy
-#~| msgid "Add track"
-#~ msgid "Add stabilized clip to project"
-#~ msgstr "Cuir rian leis"
-
-#, fuzzy
-#~| msgid "Device"
-#~ msgid "Device"
-#~ msgstr "Gléas"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgid "Copy Value at Cursor Position to Clipboard"
-#~ msgstr "Amlíne"
-
-#, fuzzy
-#~| msgid "Color"
-#~ msgid "Colors"
-#~ msgstr "Dath"
-
-#, fuzzy
-#~| msgid "Add marker"
-#~ msgid "Add marker…"
-#~ msgstr "Cuir marcóir leis"
-
-#, fuzzy
-#~| msgid "Edit marker"
-#~ msgid "Edit marker…"
-#~ msgstr "Cuir marcóir in eagar"
-
-#, fuzzy
-#~| msgid "Load markers"
-#~ msgid "Import markers…"
-#~ msgstr "Luchtaigh marcóirí"
-
-#, fuzzy
-#~| msgid "Save markers"
-#~ msgctxt "@title:window"
-#~ msgid "Save Clip Markers"
-#~ msgstr "Sábháil marcóirí"
-
-#~ msgid "Regionalize"
-#~ msgstr "Réigiúnaigh"
-
-#~ msgid "Url"
-#~ msgstr "URL"
-
-#~ msgid "Hidden"
-#~ msgstr "Folaithe"
-
-#~ msgid "Muted"
-#~ msgstr "Gan fuaim"
-
-#~ msgid "Locked"
-#~ msgstr "Faoi Ghlas"
-
-#~ msgid "Composite"
-#~ msgstr "Ilchodach"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Seek to active keyframe."
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Add keyframes."
-#~ msgstr "Cuir Marcóirí Leis"
-
-#~ msgid "Not connected"
-#~ msgstr "Gan cheangal"
-
-#, fuzzy
-#~| msgid "Reset"
-#~ msgid "Preset"
-#~ msgstr "Athshocraigh"
-
-#, fuzzy
-#~| msgid "Interval"
-#~ msgid "Interval Capture"
-#~ msgstr "Eatramh"
-
-#, fuzzy
-#~| msgid "Capture"
-#~ msgid "Capture delay"
-#~ msgstr "Gabh"
-
-#, fuzzy
-#~| msgid "Track"
-#~ msgid "track"
-#~ msgstr "Amhrán"
-
-#~ msgid "Check"
-#~ msgstr "Seiceáil"
-
-#~ msgid "Formats"
-#~ msgstr "Formáidí"
-
-#, fuzzy
-#~| msgid "Video codec"
-#~ msgid "Video Codecs"
-#~ msgstr "(Dí-)Comhbhrú Físe"
-
-#, fuzzy
-#~| msgid "DVD"
-#~ msgid "DV"
-#~ msgstr "DVD"
-
-#, fuzzy
-#~| msgid "DVD"
-#~ msgid "HDV"
-#~ msgstr "DVD"
-
-#, fuzzy
-#~| msgid "Image Type"
-#~ msgid "Image type"
-#~ msgstr "Cineál Íomhá"
-
-#, fuzzy
-#~| msgid "Frame rate"
-#~ msgid "Frame duration"
-#~ msgstr "Ráta fráma"
-
-#~ msgid "Dissolve"
-#~ msgstr "Díscaoil"
-
-#~ msgid "Image size"
-#~ msgstr "Méid na híomhá"
-
-#~ msgid "Transparent background"
-#~ msgstr "Cúlra trédhearcach"
-
-#~ msgid "E"
-#~ msgstr "E"
-
-#~ msgid "Advanced"
-#~ msgstr "Casta"
-
-#, fuzzy
-#~| msgid "Keep aspect ratio"
-#~ msgid "Force aspect ratio"
-#~ msgstr "Caomhnaigh an cóimheas treoíochta"
-
-#, fuzzy
-#~| msgid "Video codec"
-#~ msgid "Video index"
-#~ msgstr "(Dí-)Comhbhrú Físe"
-
-#, fuzzy
-#~| msgid "Scanning"
-#~ msgid "Force scanning"
-#~ msgstr "Á Scanadh"
-
-#, fuzzy
-#~| msgid "Audio codec"
-#~ msgid "Audio index"
-#~ msgstr "(Dí-)Comhbhrú Fuaime"
-
-#, fuzzy
-#~| msgid "Scanning"
-#~ msgid "Force duration"
-#~ msgstr "Á Scanadh"
-
-#~ msgid ":"
-#~ msgstr ":"
-
-#, fuzzy
-#~| msgid "Show background"
-#~ msgid "Image background"
-#~ msgstr "Taispeáin cúlra"
-
-#~ msgid "Normal"
-#~ msgstr "Gnách"
-
-#~ msgid "Transparent"
-#~ msgstr "Trédhearcach"
-
-#, fuzzy
-#~| msgid "Edit profile"
-#~ msgid "Encoding profile"
-#~ msgstr "Cuir eagar ar phróifíl"
-
-#, fuzzy
-#~| msgid "Project Files"
-#~ msgid "Manage timeline preview profiles"
-#~ msgstr "Comhaid an Tionscadail"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "Select default preview profile"
-#~ msgstr "Scrios an Phróifíl"
-
-#, fuzzy
-#~| msgid "Preview"
-#~ msgid "Preview profile:"
-#~ msgstr "Réamhamharc"
-
-#, fuzzy
-#~| msgid "Error opening file"
-#~ msgid "Errors were detected in the project file."
-#~ msgstr "Earráid agus comhad á oscailt"
-
-#, fuzzy
-#~| msgid "Animation"
-#~ msgid "Add Animation…"
-#~ msgstr "Beochan"
-
-#, fuzzy
-#~| msgid "Color Space"
-#~ msgid "&Color Theme"
-#~ msgstr "Spás Datha"
-
-#, fuzzy
-#~| msgid "Composite"
-#~ msgid "Track compositing"
-#~ msgstr "Ilchodach"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Text Edit"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Record Monitor"
-#~ msgid "Rate Controle:"
-#~ msgstr "Monatóir Taifeadta"
-
-#, fuzzy
-#~| msgid "Edit profile"
-#~ msgid "Edit profile…"
-#~ msgstr "Cuir eagar ar phróifíl"
-
-#, fuzzy
-#~| msgid "Bitrate"
-#~ msgid "Bitrates"
-#~ msgstr "Ráta giotán"
-
-#, fuzzy
-#~| msgid "Edit Duration"
-#~ msgid "Default bitrate"
-#~ msgstr "Cuir Fad Ama in Eagar"
-
-#, fuzzy
-#~| msgid "File size"
-#~ msgctxt "@title:window"
-#~ msgid "Profile Already Exists"
-#~ msgstr "Méid an chomhaid"
-
-#, fuzzy
-#~| msgid "Edit Profile"
-#~ msgctxt "@title:window"
-#~ msgid "Edit Profile"
-#~ msgstr "Cuir Próifíl in Eagar"
-
-#~ msgctxt "the first in a list of chapters"
-#~ msgid "Start"
-#~ msgstr "Tús"
-
-#, fuzzy
-#~| msgid "Frame rate"
-#~ msgid "Force rotate"
-#~ msgstr "Ráta fráma"
-
-#, fuzzy
-#~| msgid "Misc"
-#~ msgid "Misc…"
-#~ msgstr "Éagsúil"
-
-#, fuzzy
-#~| msgid "Speed"
-#~ msgctxt "@title:window"
-#~ msgid "Create Clip with Speed"
-#~ msgstr "Luas"
-
-#, fuzzy
-#~| msgid "50%"
-#~ msgid "25%"
-#~ msgstr "50%"
-
-#, fuzzy
-#~| msgid "fps"
-#~ msgid "Fps"
-#~ msgstr "fss"
-
-#~ msgid "Image Type"
-#~ msgstr "Cineál Íomhá"
-
-#, fuzzy
-#~| msgid "Frame rate"
-#~ msgid "Frame Duration"
-#~ msgstr "Ráta fráma"
-
-#~ msgid "W"
-#~ msgstr "I"
-
-#, fuzzy
-#~| msgid "Custom"
-#~ msgid "custo&m"
-#~ msgstr "Saincheaptha"
-
-#, fuzzy
-#~| msgid "Project Files"
-#~ msgid "Show default timeline preview parameters"
-#~ msgstr "Comhaid an Tionscadail"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "Select default timeline preview profile"
-#~ msgstr "Scrios an Phróifíl"
-
-#, fuzzy
-#~| msgid "Disconnect"
-#~ msgid "Discard"
-#~ msgstr "Dícheangail"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Cannot align mix"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#, fuzzy
-#~| msgid "Position X"
-#~ msgid "Position (left):"
-#~ msgstr "Ionad X"
-
-#, fuzzy
-#~| msgid "Gamma"
-#~ msgctxt "Gamma Effect Name"
-#~ msgid "Gamma"
-#~ msgstr "Gáma"
-
-#, fuzzy
-#~| msgid "File size"
-#~ msgid "Matrix size"
-#~ msgstr "Méid an chomhaid"
-
-#, fuzzy
-#~| msgid "Colour correction"
-#~ msgid "Correlation"
-#~ msgstr "Ceartú na ndathanna"
-
-#, fuzzy
-#~| msgid "Mirror"
-#~ msgid "Flip (GPU)"
-#~ msgstr "Scáthán"
-
-#, fuzzy
-#~| msgid "Mirror"
-#~ msgid "Mirror (GPU)"
-#~ msgstr "Scáthán"
-
-#, fuzzy
-#~| msgid "Opacity"
-#~ msgid "Opacity (GPU)"
-#~ msgstr "Teimhneacht"
-
-#, fuzzy
-#~| msgid "Rescale"
-#~ msgid "Allow upscale"
-#~ msgstr "Athscálaigh"
-
-#, fuzzy
-#~| msgid "Reset Effect"
-#~ msgid "Vignette (GPU)"
-#~ msgstr "Athshocraigh an Mhaisíocht"
-
-#, fuzzy
-#~| msgid "radius"
-#~ msgid "Inner radius"
-#~ msgstr "ga"
-
-#, fuzzy
-#~| msgid "White Balance"
-#~ msgid "White Balance (GPU)"
-#~ msgstr "Cothromaíocht Bhán"
-
-#~ msgctxt "Indicates the start of an animation"
-#~ msgid "Start"
-#~ msgstr "Tús"
-
-#~ msgctxt "Indicates the end of an animation"
-#~ msgid "End"
-#~ msgstr "Deireadh"
-
-#, fuzzy
-#~| msgid "Add marker"
-#~ msgid "Add clip remap"
-#~ msgstr "Cuir marcóir leis"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 1 X"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 1 Y"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 2 X"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 2 Y"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 3 X"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 3 Y"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 4 X"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Corners"
-#~ msgid "Corner 4 Y"
-#~ msgstr "Cúinní"
-
-#, fuzzy
-#~| msgid "Mode"
-#~ msgid "Trim Mode"
-#~ msgstr "Mód"
-
-#~ msgid "Slide"
-#~ msgstr "Sleamhnán"
-
-#, fuzzy
-#~| msgid "Close"
-#~ msgid "close"
-#~ msgstr "Dún"
-
-#, fuzzy
-#~| msgid "Monitor"
-#~ msgid "Seek monitor"
-#~ msgstr "Monatóir"
-
-#, fuzzy
-#~| msgid "before"
-#~ msgid "Before"
-#~ msgstr "atá roimh"
-
-#~ msgid "Debug"
-#~ msgstr "Dílochtú"
-
-#, fuzzy
-#~| msgid "Zoom Out"
-#~ msgid "Scene Split"
-#~ msgstr "Súmáil Amach"
-
-#, fuzzy
-#~| msgid "Saturation threshold"
-#~ msgid "Enter detection threshold"
-#~ msgstr "Tairseach sáithithe"
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Analyze only selected zone"
-#~ msgstr "Roghnú"
-
-#~ msgid "Load"
-#~ msgstr "Luchtaigh"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Extracting audio thumb from clip %1"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Audio thumbs: error reading audio thumbnail created with FFmpeg\n"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#, fuzzy
-#~| msgid "Cannot open file %1"
-#~ msgid "Audio thumbs: cannot open project file %1"
-#~ msgstr "Ní féidir comhad %1 a oscailt"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Extracting thumbs from clip %1"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#, fuzzy
-#~| msgid "Extract"
-#~ msgid "Extract Clip Zone"
-#~ msgstr "Bain Amach"
-
-#~ msgid "Found %1 scenes."
-#~ msgstr "Aimsíodh %1 radharc."
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Stabilize clips"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Stabilize (%1)"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Add marker"
-#~ msgid "Add chapters"
-#~ msgstr "Cuir marcóir leis"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Movie file"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Remove chapter"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Create Region"
-#~ msgid "Create basic menu"
-#~ msgstr "Cruthaigh Réigiún"
-
-#~ msgid "Button"
-#~ msgstr "Cnaipe"
-
-#~ msgid "Target"
-#~ msgstr "Sprioc"
-
-#, fuzzy
-#~| msgid "Temporary files"
-#~ msgid "Temporary data folder"
-#~ msgstr "Comhaid Shealadacha"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Creating iso file"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#~ msgid "Status"
-#~ msgstr "Stádas"
-
-#, fuzzy
-#~| msgid "Image File"
-#~ msgid "Menu File"
-#~ msgstr "Comhad Íomhá"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Add movie file"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Converting files"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Previous keyframe"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgctxt "@action"
-#~ msgid "Add keyframe"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgctxt "@action"
-#~ msgid "Remove keyframe"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Add Markers"
-#~ msgid "Next keyframe"
-#~ msgstr "Cuir Marcóirí Leis"
-
-#, fuzzy
-#~| msgid "Insertion"
-#~ msgid "Default interpolation"
-#~ msgstr "Ionsá"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Cannot open temporary playlist"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Move selected block up"
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgid "Move selected block down"
-#~ msgstr "Amlíne"
-
-#~ msgid "Create Region"
-#~ msgstr "Cruthaigh Réigiún"
-
-#, fuzzy
-#~| msgid "Dialog"
-#~ msgid "Login Dialog"
-#~ msgstr "Dialóg"
-
-#~ msgid "<<"
-#~ msgstr "<<"
-
-#~ msgid ">>"
-#~ msgstr ">>"
-
-#~ msgid "Found %1 result"
-#~ msgid_plural "Found %1 results"
-#~ msgstr[0] "Aimsíodh %1 thoradh"
-#~ msgstr[1] "Aimsíodh %1 thoradh"
-#~ msgstr[2] "Aimsíodh %1 thoradh"
-#~ msgstr[3] "Aimsíodh %1 dtoradh"
-#~ msgstr[4] "Aimsíodh %1 toradh"
-
-#, fuzzy
-#~| msgid "Error opening file"
-#~ msgid "Error Loading Extra Data"
-#~ msgstr "Earráid agus comhad á oscailt"
-
-#, fuzzy
-#~| msgid "Duration: "
-#~ msgid "Duration (s)"
-#~ msgstr "Aga: "
-
-#, fuzzy
-#~| msgid "File size"
-#~ msgid "File Exists"
-#~ msgstr "Méid an chomhaid"
-
-#, fuzzy
-#~| msgid "Error opening file"
-#~ msgid "Error Saving File"
-#~ msgstr "Earráid agus comhad á oscailt"
-
-#, fuzzy
-#~| msgid "Direction"
-#~ msgid "Dictionaries"
-#~ msgstr "Treo"
-
-#, fuzzy
-#~| msgid "Save Profile"
-#~ msgid "Saved file to"
-#~ msgstr "Sábháil an Phróifíl"
-
-#, fuzzy
-#~| msgid "Color Effect"
-#~ msgid "Mono to stereo"
-#~ msgstr "Maisíocht Datha"
-
-#~ msgid "Colour"
-#~ msgstr "Dath"
-
-#, fuzzy
-#~| msgid "Transcode"
-#~ msgid "Alpha/Transform"
-#~ msgstr "Traschódaigh"
-
-#, fuzzy
-#~| msgid "Show all profiles"
-#~ msgid "Automatic transitions"
-#~ msgstr "Taispeáin gach próifíl"
-
-#~ msgid "Save as %1"
-#~ msgstr "Sábháil mar %1"
-
-#, fuzzy
-#~| msgid "Video"
-#~ msgid "Split Video"
-#~ msgstr "Físeán"
-
-#, fuzzy
-#~| msgid "Enable effect"
-#~| msgid_plural "Enable effects"
-#~ msgid "Split video"
-#~ msgstr "Cumasaigh maisíocht"
-
-#, fuzzy
-#~| msgid "Project"
-#~ msgid "E&xport project"
-#~ msgstr "Tionscadal"
-
-#, fuzzy
-#~| msgid "Project"
-#~ msgid "&Import project"
-#~ msgstr "Tionscadal"
-
-#, fuzzy
-#~| msgid "Shadow"
-#~ msgid "Sh&adow"
-#~ msgstr "Scáth"
-
-#, fuzzy
-#~| msgid "Copyright"
-#~ msgid "Copy"
-#~ msgstr "Cóipcheart"
-
-#~ msgid "Ungroup"
-#~ msgstr "Díghrúpáil"
-
-#, fuzzy
-#~| msgid "Align right"
-#~ msgid "Align Audio"
-#~ msgstr "Ailínigh ar dheis"
-
-#, fuzzy
-#~| msgid "Thumbnails"
-#~ msgid "Track thumbnails"
-#~ msgstr "Mionsamhlacha"
-
-#, fuzzy
-#~| msgid "Image File"
-#~ msgid "1/2 Resolution Preview"
-#~ msgstr "Comhad Íomhá"
-
-#, fuzzy
-#~| msgid "Image File"
-#~ msgid "1/4 Resolution Preview"
-#~ msgstr "Comhad Íomhá"
-
-#, fuzzy
-#~| msgid "Image File"
-#~ msgid "1/8 Resolution Preview"
-#~ msgstr "Comhad Íomhá"
-
-#, fuzzy
-#~| msgid "Rotate Y"
-#~ msgid "Rotate Y:"
-#~ msgstr "Rothlaigh Y"
-
-#, fuzzy
-#~| msgid "Rotate Z"
-#~ msgid "Rotate Z:"
-#~ msgstr "Rothlaigh Z"
-
-#, fuzzy
-#~| msgid "Rotate X"
-#~ msgid "Rotate X:"
-#~ msgstr "Rothlaigh X"
-
-#, fuzzy
-#~| msgid "Softness"
-#~ msgid "Loudness"
-#~ msgstr "Boige"
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Color based alpha selection"
-#~ msgstr "Roghnú"
-
-#, fuzzy
-#~| msgid "Selection"
-#~ msgid "Selection subspace"
-#~ msgstr "Roghnú"
-
-#, fuzzy
-#~| msgid "Favorites"
-#~ msgid "Favorites"
-#~ msgstr "Ceanáin"
-
-#, fuzzy
-#~| msgid "Add new effect"
-#~ msgid "Find effect"
-#~ msgstr "Cuir maisíocht nua leis"
-
-#, fuzzy
-#~| msgid "Properties"
-#~ msgid "%1 properties"
-#~ msgstr "Airíonna"
-
-#, fuzzy
-#~| msgid "Video codec"
-#~ msgid "Video only drag"
-#~ msgstr "(Dí-)Comhbhrú Físe"
-
-#, fuzzy
-#~| msgid "Audio codec"
-#~ msgid "Audio only drag"
-#~ msgstr "(Dí-)Comhbhrú Fuaime"
-
-#, fuzzy
-#~| msgid "Frames"
-#~ msgid "I-Frame "
-#~ msgstr "Frámaí"
-
-#, fuzzy
-#~| msgid "Found %1 result"
-#~| msgid_plural "Found %1 results"
-#~ msgid "Found %count I-Frames"
-#~ msgstr "Aimsíodh %1 thoradh"
-
-#, fuzzy
-#~| msgid "Effects"
-#~ msgid "effects"
-#~ msgstr "Maisíochtaí"
-
-#, fuzzy
-#~| msgid "Composite"
-#~ msgid "compositions"
-#~ msgstr "Ilchodach"
-
-#~ msgid "Enhancement"
-#~ msgstr "Breisiú"
-
-#~ msgid "import"
-#~ msgstr "iompórtáil"
-
-#, fuzzy
-#~| msgid "Add new effect"
-#~ msgid "Edit Bin Effect"
-#~ msgstr "Cuir maisíocht nua leis"
-
-#, fuzzy
-#~| msgid "Cannot open file"
-#~ msgid "Failed to create FFmpeg audio thumbnails, using MLT"
-#~ msgstr "Ní féidir an comhad a oscailt"
-
-#~ msgid "script"
-#~ msgstr "script"
-
-#, fuzzy
-#~| msgid "Audio"
-#~ msgid "Audio %1"
-#~ msgstr "Fuaim"
-
-#, fuzzy
-#~| msgid "Video"
-#~ msgid "Video %1"
-#~ msgstr "Físeán"
-
-#~ msgid "Author:"
-#~ msgstr "Údar:"
-
-#, fuzzy
-#~| msgid "Search in the effect list"
-#~ msgid "Search in effects list"
-#~ msgstr "Cuardaigh sa liosta maisíochtaí"
-
-#, fuzzy
-#~| msgid "Description"
-#~ msgid "Show/Hide effect description"
-#~ msgstr "Cur Síos"
-
-#, fuzzy
-#~| msgid "Transitions"
-#~ msgid "Show GPU transitions"
-#~ msgstr "Trasdulta"
-
-#~ msgctxt "Folder Name"
-#~ msgid "Custom"
-#~ msgstr "Saincheaptha"
-
-#~ msgid "Group %1"
-#~ msgstr "Grúpa %1"
-
-#~ msgid "Affine"
-#~ msgstr "Fineach"
-
-#, fuzzy
-#~| msgid "Themes"
-#~ msgid "Theme"
-#~ msgstr "Téamaí"
-
-#~ msgid "Record Monitor"
-#~ msgstr "Monatóir Taifeadta"
-
-#~ msgid "Connect"
-#~ msgstr "Ceangail"
-
-#~ msgid "Disconnect"
-#~ msgstr "Dícheangail"
-
-#~ msgid "Free space: %1"
-#~ msgstr "Spás saor: %1"
-
-#~ msgid "No Effect"
-#~ msgstr "Gan Mhaisíocht"
-
-#~ msgid "Stopped"
-#~ msgstr "Stoptha"
-
-#~ msgid "Add %1"
-#~ msgstr "Cuir Leis %1"
-
-#~ msgid "Cut Group"
-#~ msgstr "Gearr Grúpa"
-
-#, fuzzy
-#~| msgid "Remove file"
-#~ msgid "Unable to move clip out of timeline."
-#~ msgstr "Bain an comhad"
-
-#, fuzzy
-#~| msgid "Geometry"
-#~ msgid "Dropped Geometry"
-#~ msgstr "Céimseata"
-
-#, fuzzy
-#~| msgid "Target"
-#~ msgid "Target track"
-#~ msgstr "Sprioc"
-
-#, fuzzy
-#~| msgid "Add track"
-#~ msgid "Blind track"
-#~ msgstr "Cuir rian leis"
-
-#~ msgid "Find"
-#~ msgstr "Aimsigh"
-
-#~ msgid "Find Next"
-#~ msgstr "An Chéad Cheann Eile"
-
-#~ msgid "Starting -- find text as you type"
-#~ msgstr "Á thosú -- cuardach beo ar théacs"
-
-#~ msgid "Found: %1"
-#~ msgstr "Aimsithe: %1"
-
-#, fuzzy
-#~| msgid "Transparent background"
-#~ msgid "Transparent background for imported images"
-#~ msgstr "Cúlra trédhearcach"
-
-#, fuzzy
-#~| msgid "Right"
-#~ msgid "straight"
-#~ msgstr "Ar Dheis"
-
-#, fuzzy
-#~| msgid "Track"
-#~ msgid "Track:"
-#~ msgstr "Amhrán"
-
-#, fuzzy
-#~| msgid "Preview"
-#~ msgid "Live view"
-#~ msgstr "Réamhamharc"
-
-#, fuzzy
-#~| msgid "Default"
-#~ msgctxt "default theme name"
-#~ msgid "Default"
-#~ msgstr "Réamhshocrú"
-
-#, fuzzy
-#~| msgid "Mimetype"
-#~ msgid "&Mimetype"
-#~ msgstr "Cineál MIME"
-
-#, fuzzy
-#~| msgid "Display"
-#~ msgid "Display Ratio"
-#~ msgstr "Taispeáin"
-
-#~ msgid "Pos"
-#~ msgstr "Láthair"
-
-#, fuzzy
-#~| msgid "Resize"
-#~ msgid "Resize:"
-#~ msgstr "Athraigh an mhéid"
-
-#, fuzzy
-#~| msgid "Profile"
-#~ msgid "pr0file"
-#~ msgstr "Próifíl"
-
-#, fuzzy
-#~| msgid "Delay"
-#~ msgid "threelay0r"
-#~ msgstr "Moill"
-
-#, fuzzy
-#~| msgid "Delay"
-#~ msgid "twolay0r"
-#~ msgstr "Moill"
-
-#, fuzzy
-#~| msgid "Preview"
-#~ msgid "Clear Preview Zones"
-#~ msgstr "Réamhamharc"
-
-#, fuzzy
-#~| msgid "Create Folder"
-#~ msgid "Rename Item"
-#~ msgstr "Cruthaigh Fillteán"
-
-#, fuzzy
-#~| msgid "Display"
-#~ msgid "Display ratio:"
-#~ msgstr "Taispeáin"
-
-#~ msgid "Welcome"
-#~ msgstr "Fáilte"
-
-#, fuzzy
-#~| msgid "Use as default"
-#~ msgid "Switch and use as default"
-#~ msgstr "Úsáid mar réamhshocrú"
-
-#, fuzzy
-#~| msgid "Thumbnails"
-#~ msgid "Thumbnails cache:"
-#~ msgstr "Mionsamhlacha"
-
-#, fuzzy
-#~| msgid "Delete Profile"
-#~ msgid "Delete Previews"
-#~ msgstr "Scrios an Phróifíl"
-
-#~ msgctxt "@action:button"
-#~ msgid "Confirm"
-#~ msgstr "Deimhnigh"
-
-#, fuzzy
-#~| msgid "Timeline"
-#~ msgid "Insert Clip Zone in Timeline (Insert)"
-#~ msgstr "Amlíne"
-
-#, fuzzy
-#~| msgid "hour"
-#~ msgid "hour"
-#~ msgstr "uair"
-
-#~ msgid "min."
-#~ msgstr "nóiméad"
-
-#, fuzzy
-#~| msgid "Filename"
-#~ msgid "field_name"
-#~ msgstr "Ainm comhaid"
-
-#~ msgid "Item Properties"
-#~ msgstr "Airíonna na Míre"
-
-#, fuzzy
-#~| msgid "Align right"
-#~ msgid "Clip right"
-#~ msgstr "Ailínigh ar dheis"
-
-#, fuzzy
-#~| msgid "Bézier Curves"
-#~ msgid "Curve"
-#~ msgstr "Cuair Bhézier"
-
-#~ msgid "Load markers"
-#~ msgstr "Luchtaigh marcóirí"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Size/Quality"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Speed"
-#~ msgid "Size/Speed"
-#~ msgstr "Luas"
-
-#, fuzzy
-#~| msgid "Add track"
-#~ msgid ""
-#~ "Video\n"
-#~ "bitrate"
-#~ msgstr "Cuir rian leis"
-
-#, fuzzy
-#~| msgid "Quality"
-#~ msgid ""
-#~ "Audio\n"
-#~ "quality"
-#~ msgstr "Cáilíocht"
-
-#, fuzzy
-#~| msgid "Add track"
-#~ msgid ""
-#~ "Audio\n"
-#~ "bitrate"
-#~ msgstr "Cuir rian leis"
-
-#~ msgid "DVD"
-#~ msgstr "DVD"
-
-#, fuzzy
-#~| msgid "Transitions"
-#~ msgid "Transition List"
-#~ msgstr "Trasdulta"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Expland Clip"
-#~ msgstr "Teideal"
-
-#, fuzzy
-#~| msgid "Black"
-#~ msgid "Blackmagic Decklink"
-#~ msgstr "Dubh"
-
-#, fuzzy
-#~| msgid "Blur"
-#~ msgid "Movit: Blur"
-#~ msgstr "Doiléirigh"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Movit: Diffusion"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Mirror"
-#~ msgid "Movit: Mirror"
-#~ msgstr "Scáthán"
-
-#, fuzzy
-#~| msgid "Center horizontally"
-#~ msgid "Flips the image horizontally"
-#~ msgstr "Láraigh go cothrománach"
-
-#, fuzzy
-#~| msgid "Opacity"
-#~ msgid "Movit: Opacity"
-#~ msgstr "Teimhneacht"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgid "Movit: Saturation"
-#~ msgstr "Sáithiú"
-
-#, fuzzy
-#~| msgid "Opacity"
-#~ msgid "Movit: Vignette"
-#~ msgstr "Teimhneacht"
-
-#, fuzzy
-#~| msgid "White Balance"
-#~ msgid "Movit: White balance"
-#~ msgstr "Cothromaíocht Bhán"
-
-#~ msgid "XVideo"
-#~ msgstr "XVideo"
-
-#, fuzzy
-#~| msgid "Video codec"
-#~ msgid "Video driver:"
-#~ msgstr "(Dí-)Comhbhrú Físe"
-
-#~ msgid "All"
-#~ msgstr "Uile"
-
-#~ msgid "License: %1"
-#~ msgstr "Ceadúnas: %1"
-
-#, fuzzy
-#~| msgid "Color Space"
-#~ msgid "Color opacity"
-#~ msgstr "Spás Datha"
-
-#, fuzzy
-#~| msgid "Colorspace"
-#~ msgid "Font color opacity"
-#~ msgstr "Samhail de dhathanna:"
-
-#~ msgid "Clone"
-#~ msgstr "Clón"
-
-#, fuzzy
-#~| msgid "View"
-#~ msgid "Graphic Scene"
-#~ msgstr "Amharc"
-
-#, fuzzy
-#~| msgid "Min"
-#~ msgid "Bin"
-#~ msgstr "Íos"
-
-#, fuzzy
-#~| msgid "Author:"
-#~ msgid "Author: "
-#~ msgstr "Údar:"
-
-#, fuzzy
-#~| msgid "Show path"
-#~ msgid "Show Track"
-#~ msgstr "Taispeáin conair"
-
-#, fuzzy
-#~| msgid "Show All"
-#~ msgid "Show Tool Panel"
-#~ msgstr "Taispeáin Uile"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgid "Webvfx Clip"
-#~ msgstr "Teideal"
-
-#~ msgid "Jack"
-#~ msgstr "Jack"
-
-#~ msgctxt "@action:button"
-#~ msgid "Close"
-#~ msgstr "Dún"
