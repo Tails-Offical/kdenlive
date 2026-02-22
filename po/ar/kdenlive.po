@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-21 00:43+0000\n"
-"PO-Revision-Date: 2026-02-18 17:51+0400\n"
+"PO-Revision-Date: 2026-02-21 17:43+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -22187,16 +22187,14 @@ msgid "Stereo (2 channels)"
 msgstr "ستريو (قناتان)"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:511
-#, fuzzy, kde-format
-#| msgid "%1 channels "
+#, kde-format
 msgid "%1 channels"
-msgstr "%1 قنوات "
+msgstr "%1 قناة"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:522
-#, fuzzy, kde-format
-#| msgid "311 Hz"
+#, kde-format
 msgid "%1 Hz"
-msgstr "311 هرتز"
+msgstr "%1 هرتز"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:525
 #, kde-format
@@ -22209,30 +22207,29 @@ msgid "48000 Hz"
 msgstr "48000 هرتز"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:531
-#, fuzzy, kde-format
-#| msgid "5000 Hz"
+#, kde-format
 msgid "96000 Hz"
-msgstr "5000 هرتز"
+msgstr "96000 هرتز"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:544
 #, kde-format
 msgid "Unsigned 8 bit"
-msgstr ""
+msgstr "8 بت غير موقّع"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:547
 #, kde-format
 msgid "Signed 16 bit"
-msgstr ""
+msgstr " 16 بت موقّعة"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:550
 #, kde-format
 msgid "Signed 32 bit"
-msgstr ""
+msgstr " 32 بت موقّعة"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:553
 #, kde-format
 msgid "Float"
-msgstr ""
+msgstr "عائم"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:604
 #, kde-format
@@ -35536,16 +35533,15 @@ msgstr "عطّل العد التنازلي قبل التسجيل"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/ui/configcapture_ui.ui:434
-#, fuzzy, kde-format
-#| msgid "Sample rate:"
+#, kde-format
 msgid "Sample format:"
-msgstr "معدّل الاعتيان:"
+msgstr "تنسيق العينة:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audiocapturedefaults)
 #: src/ui/configcapture_ui.ui:441
 #, kde-format
 msgid "Use Device Default Settings"
-msgstr ""
+msgstr "استخدم الإعدادات المبدئية للجهاز"
 
 #. i18n: ectx: property (text), widget (QLabel, label_audio_thumbs)
 #: src/ui/configcolors_ui.ui:21

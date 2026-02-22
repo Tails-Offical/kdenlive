@@ -21242,16 +21242,14 @@ msgid "Stereo (2 channels)"
 msgstr ""
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:511
-#, fuzzy, kde-format
-#| msgid "%1 channels "
+#, kde-format
 msgid "%1 channels"
-msgstr "%1 Kanály "
+msgstr "%1 kanály"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:522
-#, fuzzy, kde-format
-#| msgid "311 Hz"
+#, kde-format
 msgid "%1 Hz"
-msgstr "311 Hz"
+msgstr "%1 Hz"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:525
 #, kde-format
@@ -21287,7 +21285,7 @@ msgstr ""
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:553
 #, kde-format
 msgid "Float"
-msgstr ""
+msgstr "Desetinné číslo"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:604
 #, kde-format
@@ -34275,10 +34273,9 @@ msgstr "Zrušit odpočet před zahájením nahrávání"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/ui/configcapture_ui.ui:434
-#, fuzzy, kde-format
-#| msgid "Sample rate:"
+#, kde-format
 msgid "Sample format:"
-msgstr "Vzorkovací frekvence:"
+msgstr "Vzorkovací formát:"
 
 #. i18n: ectx: property (text), widget (QPushButton, audiocapturedefaults)
 #: src/ui/configcapture_ui.ui:441
